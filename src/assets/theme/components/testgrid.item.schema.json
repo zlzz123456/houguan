@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "title": "新建菜单",
+
+  "listShowProps": ["index", "type", "action"],
+  "listTitle": "菜单列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑菜单",
+
+  "properties": {
+    "index": {
+      "title": "ID",
+      "type": "string"
+    },
+    "type": {
+      "title": "类型",
+      "type": "string",
+      "default": "TestGridItem",
+      "options": {
+        "hidden": true
+      }
+    },
+    "title": {
+      "title": "菜单标题",
+      "type": "string"
+    },
+    "imgUrl": {
+      "title": "菜单图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "action": {
+      "title": "跳转页面",
+      "type": "string"
+    }
+  }
+}

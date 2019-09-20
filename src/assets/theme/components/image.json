@@ -1,0 +1,11 @@
+{
+  "layoutType": "container-oneColumn",
+  "layoutStyle": [
+    {
+      "key": "bgColor",
+      "value": "#FFFFFF"
+    }
+  ],
+  "subFill": true,
+  "type": "image"
+}

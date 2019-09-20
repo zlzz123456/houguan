@@ -1,0 +1,14 @@
+[
+  {
+    "index": "tab",
+    "name": "导航栏",
+    "type": "components/tab.schema.json",
+    "src": "components/tab.json"
+  },
+  {
+    "index": "menu11",
+    "name": "菜单",
+    "type": "components/menu.schema.json",
+    "src": "components/menu11.json"
+  }
+]

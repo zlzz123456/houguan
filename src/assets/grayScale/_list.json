@@ -1,0 +1,26 @@
+[
+  {
+    "index": "device",
+    "name": "集合灰度",
+    "desc": "",
+    "type": "grayScale/device.schema.json",
+    "version": "1.0.0.2",
+    "src": "grayScale/device.json"
+  },
+  {
+    "index": "group",
+    "name": "集合灰度",
+    "desc": "",
+    "type": "grayScale/group.schema.json",
+    "version": "1.0.0.2",
+    "src": "grayScale/group.json"
+  },
+  {
+    "index": "default",
+    "name": "默认灰度",
+    "desc": "默认走的版本",
+    "type": "grayScale/default.schema.json",
+    "version": "1.0.0.1",
+    "src": "grayScale/default.json"
+  }
+]

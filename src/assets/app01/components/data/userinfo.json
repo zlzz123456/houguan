@@ -1,0 +1,14 @@
+{
+  "background": {
+    "action": "login用户头像",
+    "img": "imgs/userinfo/mybanner@3x.png"
+  },
+  "card": {
+    "action": "login用户头像",
+    "img": "imgs/userinfo/man@3x.png"
+  },
+  "user": {
+    "action": "login用户头像",
+    "img": "imgs/userinfo/man@3x.png"
+  }
+}

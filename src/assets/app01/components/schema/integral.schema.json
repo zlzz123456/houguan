@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "title": "积分兑换网点",
+    "headerTemplate": "积分兑换网点",
+    "format": "categories",
+    "basicCategoryTitle": "基础",
+
+    "subSchema": ["item"],
+    "subProp": ["websiteList"],
+
+    "properties": {
+        "titleImg": {
+            "title": "图片",
+            "type": "string",
+            "default": "更多"
+        },
+        "action": {
+            "title": "跳转路径",
+            "type": "string",
+            "description": "用于场景跳转，需和场景名对应"
+        }
+    }
+}

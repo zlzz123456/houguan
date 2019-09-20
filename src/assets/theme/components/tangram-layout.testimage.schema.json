@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "title": "新建test-image",
+
+  "listShowProps": ["index", "type", "action"],
+  "listTitle": "test-image列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑test-image",
+
+  "properties": {
+    "index": {
+      "title": "",
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "title": "类型",
+      "default": "TestImage",
+      "readonly": true
+    },
+    "imgUrl": {
+      "title": "",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "action": {
+      "title": "",
+      "type": "string"
+    },
+    "style": {
+      "title": "样式",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "",
+            "type": "string"
+          },
+          "value": {
+            "title": "",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "title": "",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

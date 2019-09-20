@@ -1,0 +1,23 @@
+[
+    {
+        "appId": "app01",
+        "name": "应用01",
+        "type": "phone",
+        "icon_path": "/public/preview/imgs/qrcode.png",
+        "key": "123131231231231312"
+    },
+    {
+        "appId": "app02",
+        "name": "应用02",
+        "type": "phone",
+        "icon_path": "/public/preview/imgs/head.png",
+        "key": "sdjfsdlkjflskffk"
+    },
+    {
+        "appId": "app03",
+        "name": "应用03",
+        "type": "phone",
+        "icon_path": "/public/preview/imgs/demo_loading_logo.png",
+        "key": "ldskjfsdkfjsldkfsdk"
+    }
+]

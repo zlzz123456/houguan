@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "title": "安全设置",
+  "properties": {
+    "alg": {
+      "title": "资源加密类型",
+      "type": "string",
+      "enum": ["aes256cfb"]
+    },
+    "key": {
+      "title": "资源加密密钥",
+      "type": "string",
+      "minLength": 1
+    },
+    "fnkey": {
+      "title": "文件名加密密钥",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

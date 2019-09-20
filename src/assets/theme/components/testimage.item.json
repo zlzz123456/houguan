@@ -1,0 +1,32 @@
+[
+  {
+    "index": "1",
+    "type": "TestImage",
+    "imgUrl": "https://img.alicdn.com/imgextra/i1/1910146537/TB2Xluvad3nyKJjSZFEXXXTTFXa_!!1910146537.jpg",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "2",
+    "type": "TestImage",
+    "imgUrl": "https://img.alicdn.com/imgextra/i4/2215696389/TB2uXtXXGZPyuJjy1zcXXXp1FXa_!!2215696389.jpg",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "3",
+    "type": "TestImage",
+    "imgUrl": "https://img.alicdn.com/imgextra/i3/1709193846/TB2W5neXHAlyKJjSZFwXXXtqpXa_!!1709193846.jpg",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "4",
+    "type": "TestImage",
+    "imgUrl": "https://img.alicdn.com/imgextra/i1/1910146537/TB2Xluvad3nyKJjSZFEXXXTTFXa_!!1910146537.jpg",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "5",
+    "type": "TestImage",
+    "imgUrl": "https://img.alicdn.com/imgextra/i1/1910146537/TB2Xluvad3nyKJjSZFEXXXTTFXa_!!1910146537.jpg",
+    "action": "https://www.baidu.com/"
+  }
+]

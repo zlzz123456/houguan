@@ -1,0 +1,14 @@
+[
+  {
+    "index": "1",
+    "name": "广告01",
+    "src": "imgs/tab_home/ad/banner@2x.png",
+    "url": "http://www.csii.com.cn"
+  },
+  {
+    "index": "2",
+    "name": "广告02",
+    "src": "imgs/tab_home/ad/banner@3x.png",
+    "url": "http://www.csii.com.cn"
+  }
+]

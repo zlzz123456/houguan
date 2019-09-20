@@ -1,0 +1,248 @@
+{
+  "tab_title": "首页",
+  "leftImage": {
+    "src": "imgs/qrcode.png",
+    "action": "qrcode"
+  },
+  "rightImage": {
+    "src": "imgs/voice.png",
+    "action": "main.setting"
+  },
+  "componentsList": [
+    {
+      "data": {
+        "adList": [
+          {
+            "index": "1",
+            "name": "广告01",
+            "src": "imgs/tab_home/ad/banner.png",
+            "url": "http://www.csii.com.cn"
+          },
+          {
+            "index": "2",
+            "name": "广告02",
+            "src": "imgs/tab_home/ad/banner@3x.png",
+            "url": "http://www.csii.com.cn"
+          }
+        ],
+        "height": "300",
+        "width": "750"
+      },
+      "type": "ad"
+    },
+    {
+      "data": {
+        "columns": 5,
+        "fontColor": "#000000",
+        "fontSize": 24,
+        "imgSize": {
+          "imgHeight": 50,
+          "imgWidth": 50
+        },
+        "menuGroupList": [
+          {
+            "hidden": true,
+            "index": "normal",
+            "name": "主页菜单分组"
+          },
+          {
+            "hidden": false,
+            "index": "index",
+            "name": "理财"
+          },
+          {
+            "hidden": false,
+            "index": "menu",
+            "name": "菜单"
+          }
+        ],
+        "menuList": [
+          {
+            "groupId": "normal",
+            "index": "1",
+            "name": "账户管理",
+            "src": "imgs/tab_home/menu/accountMgmt.png",
+            "url": "main.newMain"
+          },
+          {
+            "groupId": "normal",
+            "index": "2",
+            "name": "转账汇款",
+            "src": "imgs/tab_home/menu/transfer.png",
+            "url": "main.transferaccouts"
+          },
+          {
+            "groupId": "normal",
+            "index": "3",
+            "name": "理财产品",
+            "src": "imgs/tab_home/menu/finProduct.png",
+            "url": "main.plnv"
+          },
+          {
+            "groupId": "normal",
+            "index": "4",
+            "name": "基金投资",
+            "src": "imgs/tab_home/menu/investment.png",
+            "url": "main.deposit"
+          },
+          {
+            "groupId": "normal",
+            "index": "5",
+            "name": "生活缴费",
+            "src": "imgs/tab_home/menu/lifePayment.png",
+            "url": ""
+          },
+          {
+            "groupId": "normal",
+            "index": "6",
+            "name": "网点预约",
+            "src": "imgs/tab_home/menu/website.png",
+            "url": "main.loan"
+          },
+          {
+            "groupId": "normal",
+            "index": "7",
+            "name": "信用卡",
+            "src": "imgs/tab_home/menu/creditcard.png",
+            "url": "main.businesscard"
+          },
+          {
+            "groupId": "normal",
+            "index": "8",
+            "name": "更多",
+            "src": "imgs/tab_home/menu/more.png",
+            "url": "more"
+          },
+          {
+            "groupId": "index",
+            "index": "9",
+            "name": "更多",
+            "src": "imgs/tab_home/menu/more.png",
+            "url": "main.hello"
+          },
+          {
+            "groupId": "index",
+            "index": "10",
+            "name": "更多",
+            "src": "imgs/tab_home/menu/more.png",
+            "url": "main.hello"
+          },
+          {
+            "groupId": "menu",
+            "index": "11",
+            "name": "账户管理",
+            "src": "imgs/tab_home/menu/accountMgmt.png",
+            "url": "main.newMain"
+          },
+          {
+            "groupId": "menu",
+            "index": "12",
+            "name": "转账汇款",
+            "src": "imgs/tab_home/menu/transfer.png",
+            "url": "main.transferaccouts"
+          },
+          {
+            "groupId": "menu",
+            "index": "13",
+            "name": "理财产品",
+            "src": "imgs/tab_home/menu/finProduct.png",
+            "url": "main.plnv"
+          },
+          {
+            "groupId": "menu",
+            "index": "14",
+            "name": "理财产品",
+            "src": "imgs/tab_home/menu/finProduct.png",
+            "url": "main.plnv"
+          },
+          {
+            "groupId": "menu",
+            "index": "15",
+            "name": "理财产品",
+            "src": "imgs/tab_home/menu/finProduct.png",
+            "url": "main.plnv"
+          }
+        ],
+        "tab_title": "首页"
+      },
+      "type": "menu"
+    },
+    {
+      "data": {
+        "hasListPage": false,
+        "leftPicPath": "imgs/tab_home/notice/notice.png",
+        "noticeList": [
+          {
+            "content": "随着互联网的发展，人们对互联网的要求越来越高，我行现有手机银行已经无法满足我行客户对电子渠道系统的要求，特别是移动互联网时代，为了进一步提升我行电子银行在互联网时代的竞争力和影响力，在同行业的竞争中占据一定优势，同时考虑到我行在电子银行的整体规划，对产品的进一步完善，提升我行电子银行综合竞争力，结合当前形势和我行的实际情况，我行拟重新建设个人手机银行系统。\n",
+            "createdTime": "",
+            "endTime": "",
+            "index": "2",
+            "startTime": "",
+            "title": "唐山银行POC正式启动"
+          },
+          {
+            "content": "",
+            "createdTime": "2019-06-13T10:30",
+            "endTime": "",
+            "index": "1",
+            "startTime": "",
+            "title": "手机银行成功上线!"
+          },
+          {
+            "content": "",
+            "createdTime": "",
+            "endTime": "",
+            "index": "3",
+            "startTime": "",
+            "title": "科蓝公司收购某数据库公司"
+          }
+        ]
+      },
+      "type": "notice"
+    },
+    {
+      "data": {
+        "details": {
+          "more": "更多",
+          "title": "热销理财",
+          "url": "main.plnv"
+        },
+        "financeList": [
+          {
+            "amount": 8,
+            "day": 335,
+            "finance_type": "智富1815期355天 （GXZF1819219）",
+            "index": "2",
+            "rate": "3.99",
+            "saled_text": 0.92
+          },
+          {
+            "amount": 5,
+            "day": 235,
+            "finance_type": "智富1815期35天 （GXZF1819219）",
+            "index": 4,
+            "rate": 3.88,
+            "saled_text": 0.57
+          },
+          {
+            "amount": 5,
+            "day": 135,
+            "finance_type": "智富1815期35天 （GXZF1819219）",
+            "index": "3",
+            "rate": 3.88,
+            "saled_text": 0.23
+          },
+          {
+            "amount": 5,
+            "day": 35,
+            "finance_type": "智富1815期35天 （GXZF1819219）",
+            "index": "1",
+            "rate": 3.88,
+            "saled_text": 0.72
+          }
+        ]
+      },
+      "type": "hotfinance"
+    }
+  ]
+}

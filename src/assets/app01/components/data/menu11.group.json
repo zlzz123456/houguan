@@ -1,0 +1,47 @@
+[
+  {
+    "hidden": false,
+    "index": "transfer",
+    "name": "转账"
+  },
+  {
+    "hidden": false,
+    "index": "finance",
+    "name": "特色理财"
+  },
+  {
+    "hidden": false,
+    "index": "foreign",
+    "name": "外汇"
+  },
+  {
+    "hidden": false,
+    "index": "life",
+    "name": "生活缴费"
+  },
+  {
+    "hidden": false,
+    "index": "loan",
+    "name": "贷款服务"
+  },
+  {
+    "hidden": false,
+    "index": "credit",
+    "name": "信用卡"
+  },
+  {
+    "hidden": false,
+    "index": "account",
+    "name": "账户管理"
+  },
+  {
+    "hidden": false,
+    "index": "assistant",
+    "name": "助手"
+  },
+  {
+    "hidden": true,
+    "index": "normal",
+    "name": "主页菜单分组"
+  }
+]

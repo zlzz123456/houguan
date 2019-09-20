@@ -1,0 +1,18 @@
+[
+  {
+    "index": "csii",
+    "roleName": "管理组件和页面数据的角色",
+    "funcAuth": {
+      "isPublish": true,
+      "isComponent": true,
+      "isConfig": true,
+      "isCreateOrDelApp": true,
+      "isAuth": true
+    },
+    "dataAuth": {
+      "writeComponent": true,
+      "writeConfig": true,
+      "writePublish": true
+    }
+  }
+]

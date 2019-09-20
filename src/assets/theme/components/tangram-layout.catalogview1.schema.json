@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "title": "新建TestBlankSpace",
+
+  "listShowProps": ["index", "type"],
+  "listTitle": "TestBlankSpace列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑TestBlankSpace",
+
+  "properties": {
+    "index": {
+      "title": "",
+      "type": "string"
+    },
+    "type": {
+      "title": "",
+      "type": "string",
+      "default": "TestBlankSpace",
+      "readonly": true
+    },
+    "label": {
+      "title": "",
+      "type": "string"
+    },
+    "style": {
+      "title": "样式",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "",
+            "type": "string"
+          },
+          "value": {
+            "title": "",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "title": "",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

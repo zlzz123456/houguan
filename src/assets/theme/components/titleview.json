@@ -1,0 +1,28 @@
+{
+  "layoutType": "container-sticky",
+  "layoutStyle": [
+    {
+      "key": "sticky",
+      "value": "start"
+    }
+  ],
+  "leftImage": {
+    "src": "http://115.182.90.212:9992/preview/main/weex/imgs/qrcode.png",
+    "action": "00000002"
+  },
+  "centerImage": {
+    "src": "http://115.182.90.212:9992/preview/main/weex/imgs/csiilogo-small.png",
+    "action": "00000003"
+  },
+  "rightImage": {
+    "src": "http://115.182.90.212:9992/preview/main/weex/imgs/voice.png",
+    "action": "00000004"
+  },
+  "type": "TitleView",
+  "style": [
+    {
+      "key": "height",
+      "value": "64"
+    }
+  ]
+}

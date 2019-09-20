@@ -1,0 +1,78 @@
+{
+  "type": "object",
+  "title": "缓存策略",
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "properties": {
+    "cache_ttl": {
+      "type": "number",
+      "title": "缓存时效（小时）",
+      "minLength": 1
+    },
+    "prefetch_interval": {
+      "title": "预加载刷新间隔（秒）",
+      "type": "number",
+      "minLength": 1
+    },
+    "repo_includes": {
+      "title": "打包包含",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "包含路径",
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "repo_excludes": {
+      "title": "打包排除",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "排除路径",
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "cache_includes": {
+      "title": "缓存包含",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "包含路径",
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "cache_excludes": {
+      "title": "缓存排除",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "排除路径",
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "prefetch_includes": {
+      "title": "预加载包含",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "包含路径",
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "prefetch_excludes": {
+      "title": "预加载排除",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "排除路径",
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

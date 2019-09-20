@@ -1,0 +1,40 @@
+{
+  "title": "新建广告",
+  "type": "object",
+
+  "listShowProps": ["index", "name", "action"],
+  "listTitle": "广告列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑广告",
+
+  "properties": {
+    "index": {
+      "title": "ID",
+      "type": "string",
+      "default": "AdID",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "name": {
+      "title": "广告标题",
+      "type": "string",
+      "minLength": 1
+    },
+    "img": {
+      "title": "图片路径",
+      "type": "string",
+      "format": "file-choose",
+      "minLength": 1
+    },
+    "action": {
+      "title": "跳转路径",
+      "type": "string",
+      "format": "stage-choose",
+      "minLength": 1
+    }
+  }
+}
+
+

@@ -1,0 +1,29 @@
+{
+  "title": "理财属性",
+  "type": "object",
+  "subSchema": ["item"],
+  "subProp": ["financeList"],
+  "properties": {
+    "details": {
+      "title": "理财标题",
+      "type": "object",
+      "properties": {
+        "title": {
+          "title": "标题",
+          "type": "string",
+          "minLength": 1
+        },
+        "more": {
+          "title": "更多",
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "title": "更多跳转",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

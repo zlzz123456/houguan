@@ -1,0 +1,13 @@
+{
+  "tab_title": "我的",
+  "leftImage": {
+    "src": "",
+    "action": ""
+  },
+  "rightImage": {
+    "src": "",
+    "action": ""
+  },
+  "componentsList": ["userinfo", "user_menu", "option"]
+}
+

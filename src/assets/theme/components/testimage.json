@@ -1,0 +1,73 @@
+{
+  "layoutType": "container-scroll",
+  "layoutStyle": [
+    {
+      "key": "indicatorStyle",
+      "value": "dot"
+    },
+    {
+      "key": "bgColor",
+      "value": "#FFFFFF"
+    },
+    {
+      "key": "indicatorRadius",
+      "value": "3"
+    },
+    {
+      "key": "indicatorPosition",
+      "value": "inside"
+    },
+    {
+      "key": "align",
+      "value": "left"
+    },
+    {
+      "key": "infinite",
+      "value": "true"
+    },
+    {
+      "key": "autoScroll",
+      "value": "3000"
+    },
+    {
+      "key": "pageMargin",
+      "value": [
+        "3",
+        "0",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "key": "defaultIndicatorColor",
+      "value": "#333333"
+    },
+    {
+      "key": "indicatorColor",
+      "value": "#B4B4B4"
+    },
+    {
+      "key": "pageHeight",
+      "value": "180"
+    },
+    {
+      "key": "animation",
+      "value": "desc"
+    },
+    {
+      "key": "hasIndicator",
+      "value": "true"
+    },
+    {
+      "key": "margin",
+      "value": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "subFill": true,
+  "type": "TestImage"
+}

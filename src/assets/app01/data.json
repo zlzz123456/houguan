@@ -1,0 +1,127 @@
+{
+  "ad_name": "广告",
+  "ad": {
+    "adList": [
+      {
+        "index": "test",
+        "name": "测试",
+        "img": "./imgs/tab_home/ad/banner2x.png",
+        "action": ""
+      }
+    ],
+    "height": "300",
+    "width": "750"
+  },
+  "menu_name": "菜单",
+  "menu": {
+    "columns": 4,
+    "fontColor": "#999999",
+    "fontSize": 24,
+    "imgSize": {
+      "imgHeight": 100,
+      "imgWidth": 100
+    },
+    "menu_title": "首页",
+    "menuGroupList": [
+      {
+        "hidden": false,
+        "index": "transfer",
+        "name": "转账"
+      }
+    ],
+    "menuList": [
+      {
+        "groupId": "normal",
+        "index": "6",
+        "name": "我的账户",
+        "img": "imgs/tab_home/menu/website.png",
+        "action": "main.myacchome"
+      }
+    ]
+  },
+  "tab_name": "导航栏",
+  "tab": {
+    "items": [
+      {
+        "img": "imgs/launcher/home_nor.png",
+        "index": "6",
+        "selectedImg": "imgs/launcher/home_sel.png",
+        "src": "/weex/index.weex.js?Page=Tab_home&action=test",
+        "name": "测试",
+        "visibility": "hidden",
+        "action": "ChangeTab:0"
+      }
+    ],
+    "selectedColor": "rgb(0,149,223)",
+    "unselectedColor": "rgb(192,192,192)"
+  },
+  "option_name": "选项",
+  "option": {
+      "optionList": [
+        {
+          "content": "0575-966528",
+          "index": "5",
+          "name": "联系我们",
+          "action": "",
+          "leftImg": "",
+          "rightImg": ""
+        }
+      ]
+  },
+  "userinfo_name": "用户信息",
+  "userinfo": {
+    "background": {
+      "action": "login用户头像",
+      "img": "userImg"
+    },
+    "user": {
+      "action": "login用户头像",
+      "img": "userImg"
+    },
+    "card": {
+      "action": "login用户头像",
+      "img": "userImg"
+    }
+  },
+  "topbar_name": "标题栏",
+  "topbar": {
+    "center": {
+      "action": "main.login",
+      "img": "logo"
+    },
+    "left": {
+      "action": "左边图片",
+      "img": "scan"
+    },
+    "right": {
+      "action": "右边图片",
+      "img": "msg"
+    }
+  },
+  "adcol_name": "等分广告(2)",
+  "adcol": {
+    "adList": [
+      {
+        "index": "test",
+        "name": "测试",
+        "img": "./imgs/tab_home/ad/banner2x.png",
+        "action": ""
+      }
+    ],
+    "height": "300",
+    "width": "750"
+  },
+  "adrow_name": "行级广告(2)",
+  "adrow": {
+    "adList": [
+      {
+        "index": "test",
+        "name": "测试",
+        "img": "./imgs/tab_home/ad/banner2x.png",
+        "action": ""
+      }
+    ],
+    "height": "300",
+    "width": "750"
+  }
+}

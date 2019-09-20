@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package pb;
+
+import "common.proto";
+
+message App {
+    string appId = 1;
+    string name = 2;
+    repeated string mapWsId = 3;
+    string type = 4;
+    string packageName = 5;
+    string desc = 6;
+}
+
+message GetAppListResponse {
+    Result result = 1;
+    repeated App app = 2;
+}
+
+message AppRequest {
+    Request request = 1;
+    App app = 2;
+}
+
+service AppService {
+    rpc GetAppList(CommonRequest) returns (GetAppListResponse);
+    rpc GetApp(AppRequest) returns (GetAppListResponse);
+    rpc AddApp(AppRequest) returns (CommonResponse);
+    rpc EditApp(AppRequest) returns (CommonResponse);
+    rpc DelApp(AppRequest) returns (CommonResponse);
+}

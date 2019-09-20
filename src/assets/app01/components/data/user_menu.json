@@ -1,0 +1,10 @@
+{
+  "tab_title": "我的菜单",
+  "columns": 4,
+  "imgSize": {
+    "imgWidth": 50,
+    "imgHeight": 50
+  },
+  "fontSize": 28,
+  "fontColor": "#000000"
+}

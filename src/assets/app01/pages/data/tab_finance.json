@@ -1,0 +1,13 @@
+{
+  "tab_title": "理财",
+  "leftImage": {
+    "src": "",
+    "action": ""
+  },
+  "rightImage": {
+    "src": "imgs/titlebar/voice.png",
+    "action": ""
+  },
+  "componentsList": ["ad1", "menu44", "hotnews"]
+}
+

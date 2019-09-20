@@ -1,0 +1,44 @@
+{
+  "cId": "csii",
+  "aId": "app01",
+  "gray":[
+    {
+      "desc": "默认走的版本",
+      "index": "device",
+      "deviceType": "android",
+      "phoneList": ["bkl-al20"],
+      "name": "默认灰度",
+      "src": "grayScale/device.json",
+      "type": "grayScale/device.schema.json",
+      "version": "1.0.0.2"
+    },
+    {
+      "desc": "默认走的版本",
+      "index": "default",
+      "startTime": "",
+      "endTime": "",
+      "name": "默认灰度",
+      "src": "grayScale/date.json",
+      "type": "grayScale/date.schema.json",
+      "version": "1.0.0.2"
+    },
+    {
+      "desc": "默认走的版本",
+      "index": "default",
+      "name": "默认灰度",
+      "src": "grayScale/default.json",
+      "type": "grayScale/default.schema.json",
+      "version": "1.0.0.2"
+    },
+    {
+      "desc": "",
+      "group": "1\n2\n3\n4",
+      "index": "group",
+      "name": "集合灰度",
+      "src": "grayScale/group.json",
+      "type": "grayScale/group.schema.json",
+      "version": "1.0.0.1"
+    }
+
+  ]
+}

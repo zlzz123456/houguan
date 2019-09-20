@@ -1,0 +1,23 @@
+[
+  {
+    "groupId": "normal",
+    "index": "myaccount",
+    "name": "我的账户",
+    "img": "imgs/menu/ban@3x.png",
+    "action": "main.myacchome"
+  },
+  {
+    "groupId": "normal",
+    "index": "myfinance",
+    "name": "我的理财",
+    "img": "imgs/menu/mydepositer@3x.png",
+    "action": "main.myacchome"
+  },
+  {
+    "groupId": "normal",
+    "index": "mydeposit",
+    "name": "我的存款",
+    "img": "imgs/menu/mydeposite@3x.png",
+    "action": "main.mySmartDeposit"
+  }
+]

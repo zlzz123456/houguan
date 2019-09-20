@@ -1,0 +1,58 @@
+[
+  {
+    "index": "1",
+    "url": "main.newMain",
+    "src": "imgs/tab_home/menu/accountMgmt.png",
+    "name": "账户管理",
+    "groupId": "normal"
+  },
+  {
+    "index": "2",
+    "url": "main.transferaccouts",
+    "src": "imgs/tab_home/menu/transfer.png",
+    "name": "转账汇款",
+    "groupId": "normal"
+  },
+  {
+    "index": "3",
+    "url": "main.plnv",
+    "src": "imgs/tab_home/menu/finProduct.png",
+    "name": "理财产品",
+    "groupId": "normal"
+  },
+  {
+    "index": "4",
+    "url": "main.deposit",
+    "src": "imgs/tab_home/menu/investment.png",
+    "name": "基金投资",
+    "groupId": "normal"
+  },
+  {
+    "index": "5",
+    "url": "",
+    "src": "imgs/tab_home/menu/lifePayment.png",
+    "name": "生活缴费",
+    "groupId": "normal"
+  },
+  {
+    "index": "6",
+    "url": "main.loan",
+    "src": "imgs/tab_home/menu/website.png",
+    "name": "网点预约",
+    "groupId": "normal"
+  },
+  {
+    "index": "7",
+    "url": "main.businesscard",
+    "src": "imgs/tab_home/menu/creditcard.png",
+    "name": "信用卡",
+    "groupId": "normal"
+  },
+  {
+    "index": "8",
+    "url": "main.allmenu",
+    "src": "imgs/tab_home/menu/more.png",
+    "name": "更多",
+    "groupId": "normal"
+  }
+]

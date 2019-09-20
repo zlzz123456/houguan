@@ -1,0 +1,16 @@
+[
+  {
+    "index": "template",
+    "name": "主页222",
+    "type": "pages/splashScreen.schema.json",
+    "src": "pages/template.json",
+    "parent": "root"
+  },
+  {
+    "index": "tab_home",
+    "name": "主页444",
+    "type": "pages/tabHome.schema.json",
+    "src": "pages/tab_home.json",
+    "parent": "root"
+  }
+]

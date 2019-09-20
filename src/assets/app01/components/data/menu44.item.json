@@ -1,0 +1,37 @@
+[
+  {
+    "groupId": "normal",
+    "index": "1",
+    "name": "理财超市",
+    "img": "imgs/menu/marcket.png",
+    "action": "main.smartDepList"
+  },
+  {
+    "groupId": "normal",
+    "index": "5",
+    "name": "我的智能存款",
+    "img": "imgs/menu/history.png",
+    "action": "main.mySmartDeposit"
+  },
+  {
+    "groupId": "normal",
+    "index": "4",
+    "name": "理财明细",
+    "img": "imgs/menu/detail_img.png",
+    "action": "main.financeDetail"
+  },
+  {
+    "groupId": "normal",
+    "index": "3",
+    "name": "风险评测",
+    "img": "imgs/menu/risk.png",
+    "action": "main.finRiskTest"
+  },
+  {
+    "groupId": "normal",
+    "index": "2",
+    "name": "我的理财",
+    "img": "imgs/menu/myFinance.png",
+    "action": "main.myFinList"
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "bindProp": "componentsList",
+  "listShowProps": ["index", "name", "type"],
+  "readonlyProps": ["index", "type"],
+  "editTitle": "编辑组件",
+  "listTitle": "组件列表",
+  "type": "object",
+  "title": "新建组件",
+  "uniqueItems": true,
+  "properties": {
+    "index": {
+      "title": "组件ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "name": {
+      "title": "组件名称",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "type": {
+      "title": "组件类型",
+      "type": "string",
+      "enum": [
+        "components/grid.schema.json",
+        "components/testtab.schema.json",
+        "components/testblankspace.schema.json",
+        "components/catalogview.schema.json",
+        "components/image.schema.json",
+        "components/titleview.schema.json",
+        "components/testimage.schema.json",
+        "components/testgrid.schema.json",
+        "components/notice.schema.json",
+        "components/menu.schema.json",
+        "components/ad.schema.json",
+        "components/hotfinance.schema.json",
+        "components/tab.schema.json"
+      ],
+      "options": {
+        "enum_titles": [
+          "等分广告（tg）",
+          "导航栏（tg）",
+          "间隔条（tg）",
+          "公告（tg）",
+          "平铺广告（tg）",
+          "标题栏（tg）",
+          "广告（tg）",
+          "菜单（tg）",
+          "公告",
+          "菜单",
+          "广告",
+          "理财",
+          "导航栏"
+        ]
+      }
+    },
+    "src": {
+      "type": "string",
+      "title": "文件路径",
+      "template": "components/{{fileName}}.json",
+      "options": {
+        "hidden": "true"
+      },
+      "watch": {
+        "fileName": "index"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "index": "tab",
+    "name": "主页444",
+    "type": "pages/tabHome.schema.json",
+    "src": "pages/tab.json"
+  },
+  {
+    "index": "tab_home",
+    "name": "主页444",
+    "type": "pages/tabHome.schema.json",
+    "src": "pages/tab_home.json"
+  }
+]

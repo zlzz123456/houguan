@@ -1,0 +1,44 @@
+{
+  "title": "新建理财",
+  "type": "object",
+
+  "listShowProps": ["index","finance_type", "rate", "saled_text"],
+  "listTitle": "理财列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑理财",
+
+  "properties": {
+    "index": {
+      "title": "理财ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1
+    },
+    "finance_type": {
+      "title": "理财类型",
+      "type": "string",
+      "minLength": 1
+    },
+    "rate": {
+      "title": "理财利率",
+      "type": "string",
+      "minLength": 1
+    },
+    "day": {
+      "title": "理财天数",
+      "type": "number",
+      "minLength": 1
+    },
+    "amount": {
+      "title": "起购金额（万元）",
+      "type": "number",
+      "minLength": 1
+    },
+    "saled_text": {
+      "title": "已售出",
+      "type": "number",
+      "minLength": 1
+    }
+  }
+}

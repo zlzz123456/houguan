@@ -1,0 +1,13 @@
+{
+  "tab_title": "首页",
+  "leftImage": {
+    "src": "imgs/qrcode.png",
+    "action": "qrcode"
+  },
+  "rightImage": {
+    "src": "imgs/voice.png",
+    "action": "main.setting"
+  },
+  "componentsList": ["testtab"]
+}
+

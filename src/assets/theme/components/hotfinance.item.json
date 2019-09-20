@@ -1,0 +1,35 @@
+[
+    {
+      "index": "1",
+      "finance_type": "智富1815期35天 （GXZF1819219）",
+      "rate": 3.88,
+      "day": 35,
+      "amount": 5,
+      "saled_text": 0.72
+    },
+    {
+      "index": "2",
+      "finance_type": "智富1815期35天 （GXZF1819219）",
+      "rate": 3.88,
+      "day": 335,
+      "amount": "5",
+      "saled_text": 0.92
+    },
+  {
+    "index": "3",
+    "finance_type": "智富1815期35天 （GXZF1819219）",
+    "rate": 3.88,
+    "day": 135,
+    "amount": 5,
+    "saled_text": 0.23
+  },
+  {
+    "index": 4,
+    "finance_type": "智富1815期35天 （GXZF1819219）",
+    "rate": 3.88,
+    "day": 235,
+    "amount": 5,
+    "saled_text": 0.57
+  }
+]
+

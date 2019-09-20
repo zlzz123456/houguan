@@ -1,0 +1,19 @@
+{
+  "app_name": "科蓝移动金融",
+  "chains": {
+    "startup": [
+      "main.page_launcher"
+    ]
+  },
+  "prefetch_interval": 600,
+  "repos": [
+    {
+      "index": "main",
+      "name": "主仓库",
+      "url": "./main/repo.dat",
+      "isEncrypt": true,
+      "alg": "aes256cfb",
+      "key": "Q1NJSSBrZXkgZXhhbXBsZQ=="
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "index": "1",
+    "leftImage": {
+      "src": "https://gw.alicdn.com/tfs/TB1yGIdkb_I8KJjy1XaXXbsxpXa-72-72.png",
+      "action": "左边图片"
+    },
+    "centerImage": {
+      "src": "https://gw.alicdn.com/tfs/TB1vqF.PpXXXXaRaXXXXXXXXXXX-110-72.png",
+      "action": "中间图片"
+    },
+    "rightImage": {
+      "src": "https://gw.alicdn.com/tfs/TB1yGIdkb_I8KJjy1XaXXbsxpXa-72-72.png",
+      "action": "右边图片"
+    }
+  }
+
+]

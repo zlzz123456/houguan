@@ -1,0 +1,97 @@
+{
+  "overview": {
+    "title": "门户",
+    "subItem": {
+      "overview/home": {
+        "title": "主页"
+      },
+      "overview/resources": {
+        "title": "素材资源",
+        "subItem": {
+          "overview/componentList": {
+            "title": "组件管理"
+          },
+          "overview/stageList": {
+            "title": "场景管理"
+          },
+          "overview/files": {
+            "title": "资源管理"
+          }
+        }
+      },
+      "overview/Front-EndManagement": {
+        "title": "前端展示",
+        "subItem": {
+          "overview/templateList": {
+            "title": "页面管理"
+          }
+        }
+      },
+      "overview/config": {
+        "title": "配置管理",
+        "subItem": {
+          "overview/normalSetting": {
+            "title": "常规配置"
+          },
+          "overview/hostsSetting": {
+            "title": "通讯服务"
+          },
+          "overview/cacheSetting": {
+            "title": "缓存策略"
+          },
+          "overview/safeSetting": {
+            "title": "安全设置"
+          },
+          "overview/registry": {
+            "title": "注册表"
+          }
+        }
+      },
+      "overview/publishManager": {
+        "title" : "发布管理",
+        "subItem": {
+          "overview/grayScaleManager": {
+            "title": "灰度管理"
+          },
+          "overview/versionManager": {
+            "title": "发布版本管理"
+          }
+        }
+      }
+    }
+  },
+  "analysis": {
+    "title": "分析",
+    "subItem": {
+      "analysis/home": {
+        "title": "首页"
+      },
+      "analysis/user": {
+        "title": "用户分析"
+      },
+      "analysis/device": {
+        "title": "设备分析",
+        "subItem": {
+          "analysis/android": {
+            "title": "Android设备"
+          },
+          "analysis/ios": {
+            "title": "iOS设备"
+          }
+        }
+      },
+      "analysis/area": {
+        "title": "区域分析"
+      },
+      "analysis/version": {
+        "title": "版本分析"
+      },
+      "analysis/function": {
+        "title": "功能分析"
+      },
+      "analysis/crash": {
+        "title": "异常分析"
+      }
+    }
+  }
+}

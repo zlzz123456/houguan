@@ -1,0 +1,42 @@
+[
+  {
+    "index": "1",
+    "title": "首页",
+    "image": "imgs/launcher/home_nor.png",
+    "selectedImage": "imgs/launcher/home_sel.png",
+    "src": "/weex/index.weex.js?Page=Tab_home&url=tab_home",
+    "visibility": "visible"
+  },
+  {
+    "index": "2",
+    "title": "理财",
+    "image": "imgs/launcher/wealth_nor.png",
+    "selectedImage": "imgs/launcher/wealth_sel.png",
+    "src": "/weex/index.weex.js?Page=Tab_finance",
+    "visibility": "hidden"
+  },
+  {
+    "index": "3",
+    "title": "贷款",
+    "image": "imgs/launcher/loan_nor.png",
+    "selectedImage": "imgs/launcher/loan_sel.png",
+    "src": "/weex/index.weex.js?Page=Tab_finance",
+    "visibility": "hidden"
+  },
+  {
+    "index": "4",
+    "title": "生活",
+    "image": "imgs/launcher/life_nor.png",
+    "selectedImage": "imgs/launcher/life_sel.png",
+    "src": "/weex/index.weex.js?Page=Tab_life",
+    "visibility": "hidden"
+  },
+  {
+    "index": "5",
+    "title": "我的",
+    "image": "imgs/launcher/user_nor.png",
+    "selectedImage": "imgs/launcher/user_sel.png",
+    "src": "/weex/index.weex.js?Page=Tab_user",
+    "visibility": "hidden"
+  }
+]

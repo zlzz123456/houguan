@@ -1,0 +1,32 @@
+{
+  "floor": {
+    "type": "container-scroll",
+    "style": {
+      "indicatorStyle": "dot",
+      "bgColor": "#FFFFFF",
+      "indicatorRadius": "3",
+      "indicatorPosition": "inside",
+      "indicatorGravity": "center",
+      "align": "left",
+      "infinite": "true",
+      "autoScroll": "3000",
+      "pageMargin": [
+        "3",
+        "0",
+        "2",
+        "4"
+      ],
+      "defaultIndicatorColor": "#333333",
+      "indicatorColor": "#B4B4B4",
+      "pageHeight": "180",
+      "animation": "desc",
+      "hasIndicator": "true",
+      "margin": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  }
+}

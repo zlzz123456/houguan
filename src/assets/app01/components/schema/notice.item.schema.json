@@ -1,0 +1,47 @@
+{
+  "title": "新建公告",
+  "type": "object",
+
+  "listShowProps": ["index", "title", "createdTime"],
+  "listTitle": "公告列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑公告",
+
+  "properties": {
+    "index": {
+      "title": "公告ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1
+    },
+    "title": {
+      "title": "公告标题",
+      "type": "string",
+      "minLength": 1
+    },
+    "createdTime": {
+      "title": "创建时间",
+      "type": "string",
+      "format": "datetime-local"
+    },
+    "startTime": {
+      "title": "开始显示时间",
+      "type": "string",
+      "format": "datetime-local"
+    },
+    "endTime": {
+      "title": "结束显示时间",
+      "type": "string",
+      "format": "datetime-local"
+    },
+    "content": {
+      "title": "内容",
+      "type": "string",
+      "format": "html",
+      "options": {
+        "wysiwyg": true
+      }
+    }
+  }
+}

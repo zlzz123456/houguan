@@ -1,0 +1,50 @@
+{
+    "title": "标题栏",
+    "type": "object",
+    "format": "categories",
+    "basicCategoryTitle": "基础",
+    "properties": {
+      "left": {
+        "title": "左侧",
+        "type": "object",
+        "properties": {
+          "img": {
+            "title": "图片地址",
+            "type": "string"
+          },
+          "action": {
+            "title": "跳转路径",
+            "type": "string"
+          }
+        }
+      },
+      "center": {
+        "title": "中间",
+        "type": "object",
+        "properties": {
+          "img": {
+            "title": "图片地址",
+            "type": "string"
+          },
+          "action": {
+            "title": "跳转路径",
+            "type": "string"
+          }
+        }
+      },
+      "right": {
+        "title": "右侧",
+        "type": "object",
+        "properties": {
+          "img": {
+            "title": "图片地址",
+            "type": "string"
+          },
+          "action": {
+            "title": "跳转路径",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }

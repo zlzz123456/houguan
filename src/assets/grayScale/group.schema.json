@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "title": "集合详情",
+  "properties": {
+    "group": {
+      "title": "集合信息（一行一个ID）",
+      "type": "string",
+      "format": "textarea"
+    }
+  }
+}

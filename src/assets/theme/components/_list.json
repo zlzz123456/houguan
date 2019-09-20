@@ -1,0 +1,44 @@
+[
+  {
+    "index": "ad",
+    "name": "广告",
+    "type": "components/ad.schema.json",
+    "src": "components/ad.json"
+  },
+  {
+    "index": "notice",
+    "name": "公告",
+    "type": "components/notice.schema.json",
+    "src": "components/notice.json"
+  },
+  {
+    "index": "hotfinance",
+    "name": "理财",
+    "type": "components/hotfinance.schema.json",
+    "src": "components/hotfinance.json"
+  },
+  {
+    "index": "menu11",
+    "name": "菜单11",
+    "type": "components/menu.schema.json",
+    "src": "components/menu11.json"
+  },
+  {
+    "index": "tab",
+    "name": "导航",
+    "type": "components/tab.schema.json",
+    "src": "components/tab.json"
+  },
+  {
+    "index": "menu22",
+    "name": "菜单22",
+    "type": "components/menu.schema.json",
+    "src": "components/menu22.json"
+  },
+  {
+    "index": "menu33",
+    "name": "菜单33",
+    "type": "components/menu.schema.json",
+    "src": "components/menu33.json"
+  }
+]

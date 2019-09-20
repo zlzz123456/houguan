@@ -1,0 +1,14 @@
+[
+  {
+    "index": "1",
+    "name": "广告01",
+    "img": "imgs/ad/banner1.png",
+    "action": ""
+  },
+  {
+    "index": "2",
+    "name": "广告02",
+    "img": "imgs/ad/banner1.png",
+    "action": ""
+  }
+]

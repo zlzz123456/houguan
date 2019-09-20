@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "title": "新建公告",
+  "listShowProps": [
+    "index",
+    "label",
+    "action"
+  ],
+  "listTitle": "公告列表",
+  "readonlyProps": [
+    "index"
+  ],
+  "editTitle": "编辑公告",
+  "properties": {
+    "index": {
+      "title": "ID",
+      "type": "string"
+    },
+    "type": {
+      "title": "类型",
+      "type": "string",
+      "default": "CatalogView1",
+      "options": {
+        "hidden": true
+      }
+    },
+    "label": {
+      "title": "公告标题",
+      "type": "string"
+    },
+    "action": {
+      "title": "跳转页面",
+      "type": "string"
+    },
+    "style": {
+      "title": "样式数组",
+      "type": "array",
+      "format": "table",
+      "options": {
+        "hidden": true
+      },
+      "default": [
+        {
+          "key": "height",
+          "value": "30"
+        }
+      ],
+      "items": {
+        "title": "样式",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "样式名",
+            "type": "string"
+          },
+          "value": {
+            "title": "样式值",
+            "type": [
+              "string",
+              "array"
+            ],
+            "format": "table",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

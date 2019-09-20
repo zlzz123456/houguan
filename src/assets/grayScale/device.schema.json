@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "title": "集合详情",
+  "properties": {
+    "deviceType": {
+      "title": "设备类型",
+      "type": "string",
+      "minLength": 1
+    },
+    "phoneList": {
+      "title": "手机类型",
+      "type": "array",
+      "items": {
+        "title": "机型",
+        "type": "string"
+      }
+    }
+  }
+}

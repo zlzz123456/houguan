@@ -1,0 +1,13 @@
+{
+  "tab_title": "首页",
+  "leftImage": {
+    "src": "imgs/titlebar/qrcode.png",
+    "action": "qrcode"
+  },
+  "rightImage": {
+    "src": "imgs/titlebar/voice.png",
+    "action": "main.setting"
+  },
+  "componentsList": ["ad", "menu11", "notice", "hotfinance"]
+}
+

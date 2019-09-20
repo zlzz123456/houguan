@@ -1,0 +1,13 @@
+{
+  "tab_title": "生活",
+  "leftImage": {
+    "src": "",
+    "action": ""
+  },
+  "rightImage": {
+    "src": "imgs/titlebar/mess.png",
+    "action": ""
+  },
+  "componentsList": ["menu55", "ad2", "website", "integral"]
+}
+

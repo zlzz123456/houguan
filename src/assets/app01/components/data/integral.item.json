@@ -1,0 +1,26 @@
+[
+  {
+    "img": "imgs/integral/chengdongzhihang.png",
+    "index": "4",
+    "name": "城中支行",
+    "action": ""
+  },
+  {
+    "img": "imgs/integral/beihaizhihang.png",
+    "index": "3",
+    "name": "滨州新旺角社区支行",
+    "action": ""
+  },
+  {
+    "img": "imgs/integral/anhuazhihang.png",
+    "index": "2",
+    "name": "城中支行",
+    "action": ""
+  },
+  {
+    "img": "imgs/integral/anchangzhihang.png",
+    "index": "1",
+    "name": "滨州新旺角社区支行",
+    "action": ""
+  }
+]

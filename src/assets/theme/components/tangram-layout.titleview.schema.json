@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "title": "新建标题栏",
+
+  "listShowProps": ["index", "type"],
+  "listTitle": "标题栏列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑标题栏",
+
+  "properties": {
+    "index": {
+      "title": "",
+      "type": "string"
+    },
+    "type": {
+      "title": "",
+      "type": "string",
+      "default": "TitleView",
+      "readonly": true
+    },
+    "leftImage": {
+      "type": "object",
+      "title": "左边图片",
+      "properties": {
+        "src": {
+          "title": "路径",
+          "type": "string"
+        },
+        "action": {
+          "title": "跳转路径",
+          "type": "string"
+        }
+      }
+    },
+    "centerImage": {
+      "title": "中间图片",
+      "type": "object",
+      "properties": {
+        "src": {
+          "title": "路径",
+          "type": "string"
+        },
+        "action": {
+          "title": "跳转路径",
+          "type": "string"
+        }
+      }
+    },
+    "rightImage": {
+      "title": "右边图片",
+      "type": "object",
+      "properties": {
+        "src": {
+          "title": "路径",
+          "type": "string"
+        },
+        "action": {
+          "title": "跳转路径",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

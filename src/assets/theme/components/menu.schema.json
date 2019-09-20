@@ -1,0 +1,47 @@
+{
+  "title": "菜单管理",
+  "type": "object",
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+
+  "subSchema": ["item", "group"],
+  "subProp": ["menuList", "menuGroupList"],
+
+  "properties": {
+    "tab_title": {
+      "title": "主页标题",
+      "type": "string"
+    },
+    "columns": {
+      "title": "每行菜单个数",
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "default": 4
+    },
+    "imgSize": {
+      "type": "object",
+      "title": "菜单图片大小",
+      "properties": {
+        "imgWidth": {
+          "title": "宽度",
+          "type": "integer"
+        },
+        "imgHeight": {
+          "title": "高度",
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tab_title": "理财",
+  "columns": 4,
+  "imgSize": {
+    "imgWidth": 50,
+    "imgHeight": 50
+  },
+  "fontSize": 24,
+  "fontColor": "#000000"
+}

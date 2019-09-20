@@ -1,0 +1,14 @@
+{
+  "center": {
+    "action": "main.login",
+    "img": ""
+  },
+  "left": {
+    "action": "左边图片",
+    "img": "imgs/voice.png"
+  },
+  "right": {
+    "action": "右边图片",
+    "img": "imgs/qrcode.png"
+  }
+}

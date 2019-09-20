@@ -1,0 +1,36 @@
+{
+  "readonlyProps": ["index"],
+  "editTitle": "编辑发布版本",
+
+  "listShowProps": ["index", "versionName", "status"],
+  "listTitle": "发布版本列表",
+
+  "type": "object",
+  "title": "新建发布版本",
+  "properties": {
+    "index": {
+      "title": "发布版本号",
+      "type": "string",
+      "description": "版本号只能递增，版本号建议使用X.X.X.X",
+      "minLength": 1
+    },
+    "versionName": {
+      "title": "发布版本名称",
+      "type": "string",
+      "minLength": 1
+    },
+    "versionDesc": {
+      "title": "发布版本描述",
+      "type": "string"
+    },
+    "status": {
+      "title": "发布版本状态",
+      "type": "string",
+      "enum": ["0", "1", "2" ,"3", "4"],
+      "options": {
+        "hidden": true,
+        "enum_titles": ["未发布", "未审核", "发布中", "已结束", "已删除"]
+      }
+    }
+  }
+}

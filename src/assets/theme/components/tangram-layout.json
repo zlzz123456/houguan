@@ -1,0 +1,20 @@
+{
+  "type": "container-scroll",
+  "id": "ad-banner-1",
+  "style": [
+    {
+      "key": "indicatorStyle",
+      "value": "dot"
+    },
+    {
+      "key": "pageMargin",
+      "value": [
+        "3",
+        "0",
+        "2",
+        "4"
+      ]
+    }
+  ],
+  "subType": "testimage"
+}

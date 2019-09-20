@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "title": "导航栏属性",
+
+  "subSchema": ["item"],
+  "subProp": ["items"],
+
+  "properties": {
+    "selectedColor": {
+      "type": "string",
+      "title": "选中的字体颜色"
+    },
+    "unselectedColor": {
+      "type": "string",
+      "title": "未选中的字体颜色"
+    }
+  }
+}

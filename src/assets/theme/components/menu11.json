@@ -1,0 +1,9 @@
+{
+  "tab_title": "首页",
+  "fontSize": 24,
+  "columns": 5,
+  "imgSize": {
+    "imgWidth": 200,
+    "imgHeight": 50
+  }
+}

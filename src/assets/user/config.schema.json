@@ -1,0 +1,49 @@
+{
+  "listShowProps": ["index", "password"],
+  "readonlyProps": ["index"],
+
+  "editTitle": "编辑用户",
+  "listTitle": "用户列表",
+
+  "type": "object",
+  "title": "新建用户",
+
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+
+  "properties": {
+    "index": {
+      "title": "用户ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "password": {
+      "title": "用户密码",
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 20
+    },
+    "authList": {
+      "title": "继承角色列表",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "角色ID",
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "appList": {
+      "title": "可管理的应用列表",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "应用ID",
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

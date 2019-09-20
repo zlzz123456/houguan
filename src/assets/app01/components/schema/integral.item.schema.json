@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "title": "新建兑换网点",
+  "headerTemplate": "{{ self.name }}",
+
+  "listShowProps": ["index","name", "action"],
+  "listTitle": "兑换网点列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑兑换网点",
+
+  "properties": {
+    "index": {
+      "type": "string",
+      "title": "兑换网点ID",
+      "description": "ID请使用全英文",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "title": "网点名称",
+      "default": "网点名称",
+      "minLength": 1
+    },
+    "img": {
+      "type": "string",
+      "title": "网点图片",
+      "format": "file-choose"
+    },
+    "action": {
+      "type": "string",
+      "title": "网点链接",
+      "default": "http://www.csii.com.cn",
+      "format": "url"
+    }
+  }
+}

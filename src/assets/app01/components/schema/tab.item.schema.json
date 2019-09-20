@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "title": "新建导航",
+
+  "listShowProps": ["index", "name", "visibility"],
+  "listTitle": "导航列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑导航",
+
+  "properties": {
+    "index": {
+      "title": "导航ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1
+    },
+    "name": {
+      "title": "标题",
+      "type": "string",
+      "minLength": 1
+    },
+    "img": {
+      "title": "未选中图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "selectedImg": {
+      "title": "选中图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "visibility": {
+      "title": "默认是否显示",
+      "type": "string",
+      "enum": ["hidden","visible"],
+      "options": {
+        "enum_titles": [
+          "隐藏",
+          "显示"
+        ]
+      }
+    },
+    "src": {
+      "title": "页面路径",
+      "type": "string",
+      "minLength": 1
+    },
+    "action": {
+      "title": "tangram跳转路径",
+      "type": "string"
+    }
+  }
+}

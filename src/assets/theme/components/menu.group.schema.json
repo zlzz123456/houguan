@@ -1,0 +1,25 @@
+{
+  "title": "新建分组",
+  "type": "object",
+
+  "listShowProps": ["index","name", "hidden"],
+  "listTitle": "菜单分组列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑分组",
+
+  "properties": {
+    "index": {
+      "title": "",
+      "type": "string"
+    },
+    "name": {
+      "title": "",
+      "type": "string"
+    },
+    "hidden": {
+      "title": "",
+      "type": "boolean"
+    }
+  }
+}

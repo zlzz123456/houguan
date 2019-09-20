@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+package pb;
+
+import "common.proto";
+
+message LoginRequest {
+    string username = 1;
+    string password = 2;
+    string cId = 3;
+}
+
+message LoginResponse {
+    Result result = 1;
+    int64 errorcounts = 2;
+    string userId = 3;
+    string cId = 4;
+    string authList = 5;
+}
+
+message RegisterRequest {
+    string username = 1;
+    string password = 2;
+    string mobilenumber = 3;
+    string recommendernumber = 4;
+}
+
+message SetPasswordRequest {
+    string password = 2;
+    string confirmpassword = 3;
+}
+
+message ModifyPasswordRequest {
+    string oldpassword = 1;
+    string newpassword = 2;
+    string confirmnewpassword = 3;
+}
+
+message GetCaptchaRequest {
+    string mobilenumber = 2;
+}
+
+message GetCaptchaResponse {
+    Result result = 1;
+    string captcha = 2;
+}
+
+message ForgotPasswordRequest {
+    string mobilenumber = 1;
+    string captcha = 2;
+}
+
+service AuthService {
+    rpc Login (LoginRequest) returns (LoginResponse) {}
+    rpc Logout (CommonRequest) returns (CommonResponse) {}
+    rpc Register (RegisterRequest) returns (CommonResponse) {}
+    rpc ForgotPassword (ForgotPasswordRequest) returns (CommonResponse) {}
+    rpc ModifyPassword (ModifyPasswordRequest) returns (CommonResponse) {}
+    rpc GetCaptcha (GetCaptchaRequest) returns (GetCaptchaResponse) {}
+    rpc SetPassword (SetPasswordRequest) returns (CommonResponse) {}
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package pb;
+
+import "common.proto";
+
+message PublishRequest {
+    Request request = 1;
+    string type = 2;    // 类型 publish 是发布 finish 是结束
+    string data = 3;    // 数据
+}
+
+service PublishService {
+    rpc publish(PublishRequest) returns (CommonResponse);
+}

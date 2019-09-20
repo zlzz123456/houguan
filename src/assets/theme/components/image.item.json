@@ -1,0 +1,20 @@
+[
+  {
+    "index": "1",
+    "type": "image",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_life/ad/banner2.png",
+    "action":"https://www.taobao.com"
+  },
+  {
+    "index": "2",
+    "type": "image",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_home/ad/banner.png",
+    "action":"https://www.tmall.com"
+  },
+  {
+    "index": "3",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_life/integral/spring_img.png",
+    "type": "image",
+    "action":"https://www.tmall.com"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "index": "1",
+    "type": "TestGridItem",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_home/menu/accountMgmt.png",
+    "title": "标题1",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "2",
+    "type": "TestGridItem",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_home/menu/creditcard.png",
+    "title": "标题2",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "3",
+    "type": "TestGridItem",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_home/menu/finProduct.png",
+    "title": "标题3",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "4",
+    "type": "TestGridItem",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_home/menu/investment.png",
+    "title": "标题4",
+    "action": "https://www.baidu.com/"
+  },
+  {
+    "index": "5",
+    "type": "TestGridItem",
+    "imgUrl": "http://115.182.90.212:9992/preview/main/weex/imgs/tab_home/menu/lifePayment.png",
+    "title": "标题5",
+    "action": "https://www.baidu.com/"
+  }
+]

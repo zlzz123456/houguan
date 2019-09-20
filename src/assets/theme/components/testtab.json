@@ -1,0 +1,20 @@
+{
+  "layoutType": "container-fix",
+  "layoutStyle": [
+    {
+      "key": "align",
+      "value": "bottom_left"
+    }
+  ],
+  "type" : "Tab",
+  "style": [
+    {
+      "key": "height",
+      "value": "70"
+    },
+    {
+      "key": "width",
+      "value": "375"
+    }
+  ]
+}

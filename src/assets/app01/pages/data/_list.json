@@ -1,0 +1,62 @@
+[
+  {
+    "index": "launcher",
+    "name": "导航栏",
+    "type": "pages/tabBlank.schema.json",
+    "src": "pages/launcher.json"
+  },
+  {
+    "index": "tab_home",
+    "name": "主页",
+    "type": "pages/tabHome.schema.json",
+    "src": "pages/tab_home.json"
+  },
+  {
+    "index": "tab_finance",
+    "name": "理财",
+    "type": "pages/tabHome.schema.json",
+    "src": "pages/tab_finance.json"
+  },
+  {
+    "index": "tab_life",
+    "name": "生活",
+    "type": "pages/tabHome.schema.json",
+    "src": "pages/tab_life.json"
+  },
+  {
+    "index": "tab_user",
+    "name": "我的",
+    "type": "pages/tabHome.schema.json",
+    "src": "pages/tab_user.json"
+  },
+  {
+    "index": "launcher_tg",
+    "name": "tg导航栏",
+    "type": "pages/tabBlank.schema.json",
+    "src": "pages/launcher_tg.json"
+  },
+  {
+    "index": "tab_home_tg",
+    "name": "tg主页",
+    "type": "pages/tabBlank.schema.json",
+    "src": "pages/tab_home_tg.json"
+  },
+  {
+    "index": "tab_finance_tg",
+    "name": "tg理财",
+    "type": "pages/tabBlank.schema.json",
+    "src": "pages/tab_finance_tg.json"
+  },
+  {
+    "index": "tab_life_tg",
+    "name": "tg生活",
+    "type": "pages/tabBlank.schema.json",
+    "src": "pages/tab_life_tg.json"
+  },
+  {
+    "index": "tab_user_tg",
+    "name": "tg我的",
+    "type": "pages/tabBlank.schema.json",
+    "src": "pages/tab_user_tg.json"
+  }
+]

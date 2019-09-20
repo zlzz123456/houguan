@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "title": "新建广告",
+
+  "listShowProps": ["index", "type", "action"],
+  "listTitle": "广告列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑广告",
+
+  "properties": {
+    "index": {
+      "title": "ID",
+      "type": "string"
+    },
+    "type": {
+      "title": "类型",
+      "type": "string",
+      "default": "GridItem",
+      "options": {
+        "hidden": true
+      }
+    },
+    "title": {
+      "title": "广告标题",
+      "type": "string"
+    },
+    "imgUrl": {
+      "title": "广告图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "action": {
+      "title": "跳转页面",
+      "type": "string"
+    }
+  }
+}

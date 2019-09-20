@@ -1,0 +1,50 @@
+{
+  "bindProp": "root",
+  "listShowProps": ["appId", "name", "type", "key"],
+  "readonlyProps": ["appId", "type"],
+  "editTitle": "编辑应用",
+  "listTitle": "应用列表",
+  "type": "object",
+  "title": "新建应用",
+  "properties": {
+    "appId": {
+      "title": "应用ID",
+      "type": "string",
+      "default": "ApplicationID",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "name": {
+      "title": "应用名称",
+      "type": "string",
+      "default": "请输入应用名称",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "type": {
+      "title": "应用类型",
+      "type": "string",
+      "enum": [
+        "phone"
+      ],
+      "options": {
+        "enum_titles": [
+          "手机应用"
+        ]
+      }
+    },
+    "icon_path": {
+      "type": "string",
+      "title": "图片路径",
+      "default": "/public/preview/imgs/demo_loading_logo.png"
+    },
+    "key": {
+      "type": "string",
+      "title": "应用密钥",
+      "options": {
+        "hidden": true
+      }
+    }
+  }
+}

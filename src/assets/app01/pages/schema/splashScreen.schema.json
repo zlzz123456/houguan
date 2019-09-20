@@ -1,0 +1,24 @@
+{
+  "title": "主页管理",
+  "type": "object",
+
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+
+  "properties": {
+    "img": {
+      "title": "背景图",
+      "type": "string",
+      "minLength": 1
+    },
+    "img-long": {
+      "title": "长屏背景图",
+      "type": "string",
+      "minLength": 1
+    },
+    "duration": {
+      "title": "倒记时（秒）",
+      "type": "integer"
+    }
+  }
+}

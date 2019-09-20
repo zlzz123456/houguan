@@ -1,0 +1,226 @@
+[
+  {
+    "groupId": "account",
+    "index": "93",
+    "name": "电子回单",
+    "img": "imgs/menu/lifePayment.png",
+    "action": "main.eleRecList"
+  },
+  {
+    "groupId": "account",
+    "index": "92",
+    "name": "加挂账户",
+    "img": "imgs/menu/investment.png",
+    "action": "main.addCardPre"
+  },
+  {
+    "groupId": "account",
+    "index": "91",
+    "name": "明细查询",
+    "img": "imgs/menu/lifePayment.png",
+    "action": "main.transTransaction"
+  },
+  {
+    "groupId": "assistant",
+    "index": "94",
+    "name": "金融日历",
+    "img": "imgs/menu/finProduct.png",
+    "action": "main.calendar"
+  },
+  {
+    "groupId": "account",
+    "index": "90",
+    "name": "我的账户",
+    "img": "imgs/menu/creditcard.png",
+    "action": "main.myacchome"
+  },
+  {
+    "groupId": "credit",
+    "index": "82",
+    "name": "我的信用卡",
+    "img": "imgs/menu/transfer.png",
+    "action": "main.mycredit"
+  },
+  {
+    "groupId": "credit",
+    "index": "81",
+    "name": "申请进度查询",
+    "img": "imgs/menu/finProduct.png",
+    "action": "main.creditCardApplyInquiryPre"
+  },
+  {
+    "groupId": "credit",
+    "index": "80",
+    "name": "信用卡申请",
+    "img": "imgs/menu/investment.png",
+    "action": "main.identityInfoAuth"
+  },
+  {
+    "groupId": "loan",
+    "index": "73",
+    "name": "自助还款",
+    "img": "imgs/menu/website.png",
+    "action": "main.autoRepayment"
+  },
+  {
+    "groupId": "loan",
+    "index": "72",
+    "name": "贷款申请进度",
+    "img": "imgs/menu/creditcard.png",
+    "action": "main.loanInquiry"
+  },
+  {
+    "groupId": "loan",
+    "index": "71",
+    "name": "贷款申请",
+    "img": "imgs/menu/accountMgmt.png",
+    "action": "main.loanApplyPre"
+  },
+  {
+    "groupId": "loan",
+    "index": "70",
+    "name": "我的贷款",
+    "img": "imgs/menu/lifePayment.png",
+    "action": "main.myLoan"
+  },
+  {
+    "groupId": "life",
+    "index": "60",
+    "name": "生活缴费",
+    "img": "imgs/menu/accountMgmt.png",
+    "action": "main.staHome"
+  },
+  {
+    "groupId": "foreign",
+    "index": "52",
+    "name": "外汇行情",
+    "img": "imgs/menu/finProduct.png",
+    "action": "main.exchangeMarket"
+  },
+  {
+    "groupId": "foreign",
+    "index": "51",
+    "name": "交易明细",
+    "img": "imgs/menu/investment.png",
+    "action": "main.exchangeQuery"
+  },
+  {
+    "groupId": "foreign",
+    "index": "50",
+    "name": "结购汇",
+    "img": "imgs/menu/website.png",
+    "action": "main.exchangeMenu"
+  },
+  {
+    "groupId": "transfer",
+    "index": "40",
+    "name": "转账汇款",
+    "img": "imgs/menu/transfer.png",
+    "action": "main.transfer"
+  },
+  {
+    "groupId": "finance",
+    "index": "36",
+    "name": "风险评估",
+    "img": "imgs/menu/lifePayment.png",
+    "action": "main.finRiskTest"
+  },
+  {
+    "groupId": "finance",
+    "index": "35",
+    "name": "理财明细",
+    "img": "imgs/menu/accountMgmt.png",
+    "action": "main.financeDetail"
+  },
+  {
+    "groupId": "finance",
+    "index": "34",
+    "name": "银行理财",
+    "img": "imgs/menu/finProduct.png",
+    "action": "main.finProList"
+  },
+  {
+    "groupId": "finance",
+    "index": "32",
+    "name": "大额存单",
+    "img": "imgs/menu/creditcard.png",
+    "action": "main.larDepList"
+  },
+  {
+    "groupId": "finance",
+    "index": "33",
+    "name": "智能存款",
+    "img": "imgs/menu/website.png",
+    "action": "main.smartDepList"
+  },
+  {
+    "groupId": "finance",
+    "index": "31",
+    "name": "通知存款",
+    "img": "imgs/menu/transfer.png",
+    "action": "main.notDepList"
+  },
+  {
+    "groupId": "finance",
+    "index": "30",
+    "name": "定活互转",
+    "img": "imgs/menu/investment.png",
+    "action": "main.timeDepositList"
+  },
+  {
+    "groupId": "normal",
+    "index": "21",
+    "name": "版本1.0.1.8",
+    "img": "imgs/menu/accountMgmt.png",
+    "action": "main.payeelist"
+  },
+  {
+    "groupId": "normal",
+    "index": "2",
+    "name": "转账汇款",
+    "img": "imgs/menu/finProduct.png",
+    "action": "main.transfer"
+  },
+  {
+    "groupId": "normal",
+    "index": "20",
+    "name": "次日转账查询",
+    "img": "imgs/menu/investment.png",
+    "action": "main.transferinquiry"
+  },
+  {
+    "groupId": "normal",
+    "index": "19",
+    "name": "交易明细",
+    "img": "imgs/menu/lifePayment.png",
+    "action": "main.transTransaction"
+  },
+  {
+    "groupId": "normal",
+    "index": "18",
+    "name": "跨行收款",
+    "img": "imgs/menu/transfer.png",
+    "action": "more"
+  },
+  {
+    "groupId": "normal",
+    "index": "7",
+    "name": "我的信用卡",
+    "img": "imgs/menu/creditcard.png",
+    "action": "more"
+  },
+  {
+    "groupId": "normal",
+    "index": "6",
+    "name": "我的账户",
+    "img": "imgs/menu/website.png",
+    "action": "main.myacchome"
+  },
+  {
+    "groupId": "normal",
+    "index": "8",
+    "name": "更多",
+    "img": "imgs/menu/more.png",
+    "action": "more"
+  }
+]

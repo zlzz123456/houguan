@@ -1,0 +1,7 @@
+{
+    "title": "我的选项管理",
+    "type": "object",
+
+    "subProp": ["optionList"],
+    "subSchema": ["item"]
+}

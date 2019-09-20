@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "title": "通讯服务",
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "properties": {
+    "path": {
+      "title": "跨域路径",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "跨域路径",
+        "type": "object",
+        "properties": {
+          "url": {
+            "title": "路径",
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "title": "跨域类型",
+            "type": "string",
+            "enum": [
+              "trusted", "allowed"
+            ]
+          }
+        }
+      }
+    },
+    "map": {
+      "title": "映射路径",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "映射路径",
+        "type": "object",
+        "properties": {
+          "index": {
+            "title": "映射路径",
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "title": "真实路径",
+            "type": "string",
+            "minLength": 1
+          },
+          "isEncrypt": {
+            "title": "是否加密",
+            "type": "boolean"
+          },
+          "alg": {
+            "title": "算法类型",
+            "type": "string",
+            "enum": ["aes256cfb"]
+          },
+          "key": {
+            "title": "密钥",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

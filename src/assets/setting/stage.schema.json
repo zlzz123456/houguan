@@ -1,0 +1,75 @@
+{
+  "listShowProps": ["index", "name", "module"],
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "readonlyProps": ["index"],
+  "editTitle": "编辑场景",
+  "listTitle": "场景列表",
+  "type": "object",
+  "title": "新建场景",
+  "properties": {
+    "index": {
+      "title": "场景ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "name": {
+      "title": "场景名称",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "moduleType": {
+      "title": "场景类型",
+      "type": "string",
+      "enum": [
+        "weex", "web", "custom"
+      ],
+      "options": {
+        "enum_titles": [
+          "weex", "web", "自定义"
+        ]
+      }
+    },
+    "module": {
+      "title": "自定义场景类型",
+      "type": "string",
+      "default": "weex",
+      "minLength": 1
+    },
+    "path": {
+      "title": "路径",
+      "type": "string"
+    },
+    "params": {
+      "type": "array",
+      "format": "table",
+      "title": "场景参数",
+      "items": {
+        "type": "object",
+        "title": "参数子项",
+        "properties": {
+          "key": {
+            "type": "string",
+            "title": "键"
+          },
+          "value": {
+            "type": "string",
+            "title": "值"
+          }
+        }
+      }
+    },
+    "auth_check": {
+      "type": "array",
+      "format": "table",
+      "title": "场景校验",
+      "items": {
+        "type": "string",
+        "title": "校验子项"
+      }
+    }
+  }
+}

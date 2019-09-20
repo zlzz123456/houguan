@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "title": "注册表属性",
+  "properties": {
+    "central_url": {
+      "title": "中心服务器文件地址",
+      "type": "string",
+      "minLength": 1
+    },
+    "gray_url": {
+      "title": "灰度文件地址",
+      "type": "string",
+      "minLength": 1
+    },
+    "central_alg": {
+      "title": "中心服务器文件加密方式",
+      "type": "string",
+      "enum": ["aes256cfb"]
+    },
+    "central_key": {
+      "title": "中心服务器文件加密密钥",
+      "type": "string",
+      "minLength": 1
+    },
+    "securestore_alg": {
+      "title": "存储加密方式",
+      "type": "string",
+      "enum": ["aes256cfb"]
+    },
+    "securestore_key": {
+      "title": "存储加密密钥",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

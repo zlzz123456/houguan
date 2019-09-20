@@ -1,0 +1,35 @@
+{
+  "title": "新建菜单项",
+  "type": "object",
+
+  "listShowProps": ["index","name", "src"],
+  "listTitle": "菜单项列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑菜单项",
+
+  "properties": {
+    "index": {
+      "title": "",
+      "type": "string"
+    },
+    "name": {
+      "title": "",
+      "type": "string"
+    },
+    "src": {
+      "title": "",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "url": {
+      "title": "",
+      "type": "string",
+      "format": "stage-choose"
+    },
+    "groupId": {
+      "title": "",
+      "type": "string"
+    }
+  }
+}

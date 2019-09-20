@@ -1,0 +1,28 @@
+{
+  "title": "广告管理",
+  "type": "object",
+
+  "subSchema": ["item"],
+  "subProp": ["items"],
+
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "properties": {
+    "title": {
+      "title": "标题",
+      "type": "string"
+    },
+    "width": {
+      "title": "宽度",
+      "type": "string",
+      "default": "750",
+      "minLength": 1
+    },
+    "height": {
+      "title": "高度",
+      "type": "string",
+      "default": "300",
+      "minLength": 1
+    }
+  }
+}

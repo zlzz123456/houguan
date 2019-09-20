@@ -1,0 +1,28 @@
+
+syntax = "proto3";
+
+package pb;
+
+// 公共响应头
+message Result {
+    int64 code = 1;     // 响应码
+    string message = 2; // 响应信息
+}
+
+// 公共请求头
+message Request {
+    string cId = 1;
+    string userId = 2;
+    string appId = 3;
+    string menuId = 4;
+}
+
+// 公共请求
+message CommonRequest {
+    Request request = 1;
+}
+
+// 公共响应
+message CommonResponse {
+    Result result = 1;
+}

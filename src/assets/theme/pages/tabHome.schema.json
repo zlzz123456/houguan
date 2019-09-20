@@ -1,0 +1,44 @@
+{
+  "title": "主页管理",
+  "type": "object",
+
+  "componentList": "components/config.schema.json",
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "properties": {
+    "tab_title": {
+      "title": "主页标题",
+      "type": "string"
+    },
+    "leftImage": {
+      "title": "左边按钮",
+      "type": "object",
+      "properties": {
+        "src": {
+          "title": "图片路径",
+          "type": "string",
+          "format": "file-choose"
+        },
+        "action": {
+          "title": "跳转路径",
+          "type": "string"
+        }
+      }
+    },
+    "rightImage": {
+      "title": "右边按钮",
+      "type": "object",
+      "properties": {
+        "src": {
+          "title": "图片路径",
+          "type": "string",
+          "format": "file-choose"
+        },
+        "action": {
+          "title": "跳转路径",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

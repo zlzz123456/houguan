@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package pb;
+
+import "common.proto";
+
+message AnalysisResponse {
+  Result result = 1;
+  string jsonStr = 2;
+}
+
+message AnalysisRequest {
+  Request request = 1;
+  string flag = 2;
+  string url = 3;
+  string date = 4;
+  string key = 5;
+}
+
+service AnalysisService {
+  //    rpc NewDeviceQry (req) returns (resp); //新增设备
+  //    rpc ActiveDeviceQry (req) returns (resp); //查询活跃设备
+  //    rpc StartCountQry (req) returns (resp); //查询启动次数
+  //    rpc UseTimeQry (req) returns (resp); //单次使用时长
+  //    rpc RetentionRateQry (req) returns (resp); //留存率
+  //    rpc UserDetailQry (req) returns (resp); //用户分析
+  //    rpc OSVersionQry (req) returns (resp); //系统版本分析
+  //    rpc DeviceQry (req) returns (resp); //手机品牌分析
+  //    rpc ResolutionQry (req) returns (resp); //分辨率分析
+  //    rpc AppVersionQry (req) returns (resp); //app版本分析
+  //    rpc AreaQry (req) returns (resp); //区域分析
+  //    rpc EventDurQry (req) returns (resp); //功能分析
+  //    rpc CrashQry (req) returns (resp); //异常分析
+  rpc RequestQry (AnalysisRequest) returns (AnalysisResponse);
+
+}

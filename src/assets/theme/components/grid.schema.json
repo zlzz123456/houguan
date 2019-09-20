@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "title": "等分广告属性",
+
+  "subSchema": ["item"],
+  "subProp": ["items"],
+
+  "properties": {
+    "layoutType": {
+      "title": "布局类型",
+      "type": "string",
+      "default": "container-oneColumn",
+      "options": {
+        "hidden": true
+      }
+    },
+    "layoutStyle": {
+      "title": "布局样式",
+      "type": "array",
+      "format": "table",
+      "options": {
+        "hidden": true
+      },
+      "items": {
+        "title": "",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "",
+            "type": "string"
+          },
+          "value": {
+            "title": "",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "title": "",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "type": {
+      "title": "类型",
+      "type": "string",
+      "default": "Grid",
+      "options": {
+        "hidden": true
+      }
+    },
+    "style": {
+      "title": "样式数组",
+      "type": "array",
+      "format": "table",
+      "options": {
+        "hidden": true
+      },
+      "items": {
+        "title": "样式",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "样式名",
+            "type": "string"
+          },
+          "value": {
+            "title": "样式值",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

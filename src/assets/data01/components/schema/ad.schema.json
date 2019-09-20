@@ -1,0 +1,20 @@
+{
+  "title": "广告管理",
+  "type": "object",
+
+  "subSchema": ["item"],
+  "subProp": ["adList"],
+
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "properties": {
+    "width": {
+      "title": "宽度",
+      "type": "string"
+    },
+    "height": {
+      "title": "高度",
+      "type": "string"
+    }
+  }
+}

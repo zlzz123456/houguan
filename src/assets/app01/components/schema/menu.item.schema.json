@@ -1,0 +1,40 @@
+{
+  "title": "新建菜单项",
+  "type": "object",
+
+  "listShowProps": ["index","name", "groupId"],
+  "listTitle": "菜单项列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑菜单项",
+
+  "properties": {
+    "index": {
+      "title": "菜单项ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1
+    },
+    "name": {
+      "title": "菜单项名称",
+      "type": "string",
+      "minLength": 1
+    },
+    "img": {
+      "title": "菜单图片路径",
+      "type": "string",
+      "format": "file-choose",
+      "minLength": 1
+    },
+    "action": {
+      "title": "跳转路径",
+      "type": "string",
+      "minLength": 1
+    },
+    "groupId": {
+      "title": "分组ID",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

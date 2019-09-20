@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "title": "新建导航",
+
+  "listShowProps": ["index", "title", "action"],
+  "listTitle": "导航列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑导航",
+
+  "properties": {
+    "index": {
+      "title": "ID",
+      "type": "string"
+    },
+    "type": {
+      "title": "组件类型",
+      "type": "string",
+      "default": "TabItem",
+      "options": {
+        "hidden": true
+      }
+    },
+    "title": {
+      "title": "标题",
+      "type": "string"
+    },
+    "imgUrl": {
+      "title": "未选中图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "selectedImgUrl": {
+      "title": "选中图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "action": {
+      "title": "跳转页面",
+      "type": "string"
+    },
+    "style": {
+      "title": "样式数组",
+      "type": "array",
+      "format": "table",
+      "options": {
+        "hidden": true
+      },
+      "default": [
+        {
+          "key": "bgColor",
+          "value": "#ffffff"
+        },
+        {
+          "key": "borderWidth",
+          "value": "0.5"
+        }
+      ],
+      "items": {
+        "title": "样式",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "样式名",
+            "type": "string"
+          },
+          "value": {
+            "title": "样式值",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

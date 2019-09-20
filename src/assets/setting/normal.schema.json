@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "title": "常规配置",
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "properties": {
+    "app_name": {
+      "title": "应用名称",
+      "type": "string",
+      "minLength": 1
+    },
+    "prefetch_interval": {
+      "title": "预加载刷新间隔（秒）",
+      "type": "number",
+      "minLength": 1
+    },
+    "chains": {
+      "title": "启动参数",
+      "type": "object",
+      "properties": {
+        "startup": {
+          "title": "启动链",
+          "type": "array",
+          "format": "table",
+          "items": {
+            "title": "启动场景",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "repos": {
+      "title": "仓库数组",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "仓库",
+        "type": "object",
+        "properties": {
+          "index": {
+            "title": "仓库ID",
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "title": "仓库名称",
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "title": "仓库路径",
+            "type": "string",
+            "minLength": 1
+          },
+          "isEncrypt": {
+            "title": "是否加密",
+            "type": "boolean"
+          },
+          "alg": {
+            "title": "算法类型",
+            "type": "string",
+            "enum": ["aes256cfb"]
+          },
+          "key": {
+            "title": "密钥",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

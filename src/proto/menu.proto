@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package pb;
+
+import "common.proto";
+
+message MenuItem {
+    string name = 1;         // 菜单名
+    string title = 2;       // 菜单标题
+    bool hasSubMenu = 3;    // 是否拥有子菜单
+}
+
+message MenuRequest {
+    Request request = 1;
+    repeated string nameList = 2;
+}
+
+message MenuResponse {
+    Result result = 1;
+    repeated MenuItem menuList = 2;
+}
+
+// 菜单服务
+service MenuService {
+
+    rpc getMenu(MenuRequest) returns (MenuResponse);
+    rpc verifyMenu(CommonRequest) returns (CommonResponse);
+}

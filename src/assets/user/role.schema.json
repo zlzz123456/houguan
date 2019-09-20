@@ -1,0 +1,85 @@
+{
+  "listShowProps": ["index", "roleName"],
+  "readonlyProps": ["index"],
+
+  "editTitle": "编辑角色",
+  "listTitle": "角色列表",
+
+  "type": "object",
+  "title": "新建角色",
+
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+
+  "properties": {
+    "index": {
+      "title": "角色ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "roleName": {
+      "title": "角色名字",
+      "type": "string",
+      "minLength": 1
+    },
+    "funcAuth": {
+      "title": "功能权限",
+      "type": "object",
+      "properties": {
+        "isComponent": {
+          "title": "访问组件和页面数据权限",
+          "type": "boolean",
+          "format": "checkbox"
+        },
+        "isConfig": {
+          "title": "访问配置数据权限",
+          "type": "boolean",
+          "format": "checkbox"
+        },
+        "isPublish": {
+          "title": "访问发布数据权限",
+          "type": "boolean",
+          "format": "checkbox"
+        },
+        "isAnalysis": {
+          "title": "访问分析数据权限",
+          "type": "boolean",
+          "format": "checkbox"
+        },
+        "isCreateOrDelApp": {
+          "title": "新建/删除应用权限（重要）",
+          "type": "boolean",
+          "format": "checkbox"
+        },
+        "isAuth": {
+          "title": "管理权限数据权限（重要）",
+          "type": "boolean",
+          "format": "checkbox"
+        }
+      }
+    },
+    "dataAuth": {
+      "title": "数据权限",
+      "type": "object",
+      "properties": {
+        "writeComponent": {
+          "title": "编辑组件和页面数据权限",
+          "type": "boolean",
+          "format": "checkbox"
+        },
+        "writeConfig": {
+          "title": "编辑配置数据权限",
+          "type": "boolean",
+          "format": "checkbox"
+        },
+        "writePublish": {
+          "title": "编辑发布数据权限",
+          "type": "boolean",
+          "format": "checkbox"
+        }
+      }
+    }
+  }
+}

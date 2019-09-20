@@ -1,0 +1,40 @@
+{
+  "title": "新建选项",
+  "type": "object",
+
+  "listShowProps": ["index","name", "action"],
+  "listTitle": "选项列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑选项",
+
+  "properties": {
+    "index": {
+      "title": "选项ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1
+    },
+    "name": {
+      "title": "选项名称",
+      "type": "string",
+      "minLength": 1
+    },
+    "action": {
+      "title": "跳转路径",
+      "type": "string"
+    },
+    "content": {
+      "title": "显示内容",
+      "type": "string"
+    },
+    "leftImg": {
+      "title": "左边图片",
+      "type": "string"
+    },
+    "rightImg": {
+      "title": "右边图片",
+      "type": "string"
+    }
+  }
+}

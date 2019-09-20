@@ -1,0 +1,46 @@
+{
+    "title": "网点管理",
+    "type": "object",
+    "format": "categories",
+    "basicCategoryTitle": "基础",
+    "properties": {
+      "title": {
+        "title": "标题",
+        "type": "string",
+        "default": "附近网点",
+        "minLength": 1
+      },
+      "name": {
+        "title": "网点名称",
+        "type": "string",
+        "minLength": 1
+      },
+      "open_hours": {
+          "title": "营业时间",
+          "type": "string",
+        "minLength": 1
+      },
+      "address": {
+          "title": "地址",
+          "type": "string",
+        "minLength": 1
+      },
+      "img": {
+          "title": "图片路径",
+          "type": "string",
+          "format": "file-choose"
+      },
+      "btn": {
+          "title": "按钮",
+          "type": "string",
+          "default": "搜索",
+        "minLength": 1
+      },
+      "action": {
+          "title": "跳转路径",
+          "type": "string",
+        "minLength": 1
+      }
+
+    }
+  }

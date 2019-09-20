@@ -1,0 +1,44 @@
+{
+  "title": "导航页管理",
+  "type": "object",
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+  "properties": {
+    "selectedColor": {
+      "title": "选中的字体颜色",
+      "type": "string"
+    },
+    "unselectedColor": {
+      "title": "未选中的字体颜色",
+      "type": "string"
+    },
+    "tabs": {
+      "title": "导航数组",
+      "type": "array",
+      "items": {
+        "title": "导航子项",
+        "type": "object",
+        "properties": {
+          "title": {
+            "title": "导航标题",
+            "type": "string"
+          },
+          "image": {
+            "title": "未选中图片路径",
+            "type": "string",
+            "format": "filechoose"
+          },
+          "selectedImage": {
+            "title": "选中图片路径",
+            "type": "string",
+            "format": "filechoose"
+          },
+          "src": {
+            "title": "跳转场景",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

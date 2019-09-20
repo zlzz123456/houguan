@@ -1,0 +1,49 @@
+{
+  "bindProp": "root",
+  "listShowProps": ["index", "name","type"],
+  "readonlyProps": ["index", "type"],
+  "editTitle": "编辑页面",
+  "listTitle": "页面列表",
+  "type": "object",
+  "title": "新建页面",
+  "properties": {
+    "index": {
+      "title": "页面ID",
+      "type": "string",
+      "default": "TemplateID",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "name": {
+      "title": "页面名称",
+      "type": "string",
+      "default": "页面",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "type": {
+      "title": "页面类型",
+      "type": "string",
+      "enum": [
+        "pages/tabHome.schema.json"
+      ],
+      "options": {
+        "enum_titles": [
+          "主页"
+        ]
+      }
+    },
+    "src": {
+      "type": "string",
+      "title": "文件路径",
+      "template": "pages/{{fileName}}.json",
+      "options": {
+        "hidden": true
+      },
+      "watch": {
+        "fileName": "index"
+      }
+    }
+  }
+}

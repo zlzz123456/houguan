@@ -1,0 +1,17 @@
+{
+  "title": "热门资讯管理",
+  "type": "object",
+
+  "properties": {
+    "title": {
+      "title": "标题",
+      "type": "string",
+      "minLength": 1
+    },
+    "more": {
+      "title": "更多",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

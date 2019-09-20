@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "title": "tangram布局组件",
+
+  "properties": {
+    "type": {
+      "type": "string",
+      "title": "布局类型"
+    },
+    "id": {
+      "title": "ID",
+      "type": "string"
+    },
+    "subType": {
+      "title": "子项类型",
+      "type": "string",
+      "enum": ["titleview", "testimage", "testblankspace", "testgrid", "page", "catalogview1"],
+      "options": {
+        "enum_titles": ["TitleView", "TestImage", "TestBlankSpace", "TestGrid", "Page", "CatalogView1"]
+      }
+    },
+    "style": {
+      "title": "样式",
+      "type": "array",
+      "format": "table",
+      "items": {
+        "title": "",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "样式属性名",
+            "type": "string"
+          },
+          "value": {
+            "title": "样式属性值",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "title": "样式属性值",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

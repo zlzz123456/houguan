@@ -1,0 +1,50 @@
+{
+    "title": "用户信息",
+    "type": "object",
+    "format": "categories",
+    "basicCategoryTitle": "基础",
+    "properties": {
+      "background": {
+        "title": "背景图",
+        "type": "object",
+        "properties": {
+          "imgUrl": {
+            "title": "图片地址",
+            "type": "string"
+          },
+          "action": {
+            "title": "跳转路径",
+            "type": "string"
+          }
+        }
+      },
+      "user": {
+        "title": "背景图",
+        "type": "object",
+        "properties": {
+          "imgUrl": {
+            "title": "图片地址",
+            "type": "string"
+          },
+          "action": {
+            "title": "跳转路径",
+            "type": "string"
+          }
+        }
+      },
+      "card": {
+        "title": "卡片背景图",
+        "type": "object",
+        "properties": {
+          "imgUrl": {
+            "title": "图片地址",
+            "type": "string"
+          },
+          "action": {
+            "title": "跳转路径",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }

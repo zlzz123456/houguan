@@ -1,0 +1,153 @@
+{
+  "type": "object",
+  "title": "标题栏属性",
+
+  "subSchema": ["item"],
+  "subProp": ["items"],
+
+  "properties": {
+    "layoutType": {
+      "title": "",
+      "type": "string",
+      "options": {
+        "hidden": true
+      }
+    },
+    "layoutStyle": {
+      "title": "布局样式",
+      "type": "array",
+      "format": "table",
+      "options": {
+        "hidden": true
+      },
+      "default": [
+        {
+          "key": "indicatorStyle",
+          "value": "dot"
+        },
+        {
+          "key": "bgColor",
+          "value": "#FFFFFF"
+        },
+        {
+          "key": "indicatorRadius",
+          "value": "3"
+        },
+        {
+          "key": "indicatorPosition",
+          "value": "inside"
+        },
+        {
+          "key": "align",
+          "value": "left"
+        },
+        {
+          "key": "infinite",
+          "value": "true"
+        },
+        {
+          "key": "autoScroll",
+          "value": "3000"
+        },
+        {
+          "key": "pageMargin",
+          "value": [
+            "3",
+            "0",
+            "2",
+            "4"
+          ]
+        },
+        {
+          "key": "defaultIndicatorColor",
+          "value": "#333333"
+        },
+        {
+          "key": "indicatorColor",
+          "value": "#B4B4B4"
+        },
+        {
+          "key": "pageHeight",
+          "value": "180"
+        },
+        {
+          "key": "animation",
+          "value": "desc"
+        },
+        {
+          "key": "hasIndicator",
+          "value": "true"
+        },
+        {
+          "key": "margin",
+          "value": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "items": {
+        "title": "",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "",
+            "type": "string"
+          },
+          "value": {
+            "title": "",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "title": "",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "type": {
+      "title": "组件类型",
+      "type": "string",
+      "default": "TestImage",
+      "options": {
+        "hidden": true
+      }
+    },
+    "style": {
+      "title": "样式数组",
+      "type": "array",
+      "format": "table",
+      "options": {
+        "hidden": true
+      },
+      "items": {
+        "title": "样式",
+        "type": "object",
+        "properties": {
+          "key": {
+            "title": "样式名",
+            "type": "string"
+          },
+          "value": {
+            "title": "样式值",
+            "type": ["string", "array"],
+            "format": "table",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "subFill": {
+      "title": "子组件数据覆盖",
+      "type": "boolean",
+      "options": {
+        "hidden": true
+      }
+    }
+  }
+}

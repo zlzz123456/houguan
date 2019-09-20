@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "title": "新建导航",
+
+  "listShowProps": ["index", "title", "visibility"],
+  "listTitle": "导航列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑导航",
+
+  "properties": {
+    "index": {
+      "title": "ID",
+      "type": "string"
+    },
+    "title": {
+      "title": "标题",
+      "type": "string"
+    },
+    "image": {
+      "title": "未选中图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "selectedImage": {
+      "title": "选中图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "visibility": {
+      "title": "默认是否显示",
+      "type": "string",
+      "enum": ["hidden","visible"],
+      "options": {
+        "enum_titles": [
+          "隐藏",
+          "显示"
+        ]
+      }
+    },
+    "src": {
+      "title": "跳转页面",
+      "type": "string"
+    }
+  }
+}

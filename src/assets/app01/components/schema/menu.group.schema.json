@@ -1,0 +1,29 @@
+{
+  "title": "新建菜单分组",
+  "type": "object",
+
+  "listShowProps": ["index","name", "hidden"],
+  "listTitle": "菜单分组列表",
+
+  "readonlyProps": ["index"],
+  "editTitle": "编辑菜单分组",
+
+  "properties": {
+    "index": {
+      "title": "菜单分组ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "name": {
+      "title": "菜单分组名称",
+      "type": "string",
+      "minLength": 1
+    },
+    "hidden": {
+      "title": "是否在全部功能页面隐藏",
+      "type": "boolean"
+    }
+  }
+}

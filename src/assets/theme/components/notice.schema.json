@@ -1,0 +1,22 @@
+{
+  "title": "公告管理",
+  "type": "object",
+
+  "subSchema": ["item"],
+  "subProp": ["noticeList"],
+
+  "format": "categories",
+  "basicCategoryTitle": "基础",
+
+  "properties": {
+    "leftPicPath": {
+      "title": "左边图片路径",
+      "type": "string",
+      "format": "file-choose"
+    },
+    "hasListPage": {
+      "title": "是否拥有列表页",
+      "type": "boolean"
+    }
+  }
+}

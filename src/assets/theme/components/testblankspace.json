@@ -1,0 +1,14 @@
+{
+  "layoutType": "container-oneColumn",
+  "type": "TestBlankSpace",
+  "style": [
+    {
+      "key": "height",
+      "value": "10"
+    },
+    {
+      "key": "bgColor",
+      "value": "#FFFFFF"
+    }
+  ]
+}

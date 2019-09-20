@@ -1,0 +1,1 @@
+{"repo_includes":[],"repo_excludes":["^repo.json$","^repo.dat$","/.DS_Store$","/.go$","^/.svn","^/.git","^config/"],"cache_includes":[],"cache_excludes":["/.do$","/.do?","^data/"],"cache_ttl":72,"prefetch_includes":[],"prefetch_excludes":[],"prefetch_interval":10}

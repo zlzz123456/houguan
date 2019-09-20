@@ -1,0 +1,565 @@
+[
+  {
+    "auth_check": [],
+    "index": "rechargeList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "充值记录",
+    "params": [],
+    "path": "./vx_mock/index.html#/rechargeList"
+  },
+  {
+    "auth_check": [],
+    "index": "proRecList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "代付缴费",
+    "params": [],
+    "path": "./vx_mock/index.html#/rechargeList"
+  },
+  {
+    "auth_check": [],
+    "index": "phoneRecharge",
+    "module": "web",
+    "moduleType": "web",
+    "name": "手机充值",
+    "params": [],
+    "path": "./vx_mock/index.html#/phoneRecharge"
+  },
+  {
+    "auth_check": [],
+    "index": "mySmartDeposit",
+    "module": "web",
+    "moduleType": "web",
+    "name": "我的智能存款",
+    "params": [],
+    "path": "./vx_mock/index.html#/mySmartDeposit"
+  },
+  {
+    "auth_check": [],
+    "index": "myFinList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "我的理财",
+    "params": [],
+    "path": "./vx_mock/index.html#/myFinList"
+  },
+  {
+    "auth_check": [],
+    "index": "smartDepList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "理财超市",
+    "params": [],
+    "path": "./vx_mock/index.html#/smartDepList"
+  },
+  {
+    "auth_check": [],
+    "index": "autoRepayment",
+    "module": "web",
+    "moduleType": "web",
+    "name": "自助还款",
+    "params": [],
+    "path": "./vx_mock/index.html#/autoRepayment"
+  },
+  {
+    "auth_check": [],
+    "index": "finProList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "银行理财",
+    "params": [],
+    "path": "./vx_mock/index.html#/finProList"
+  },
+  {
+    "auth_check": [],
+    "index": "staHome",
+    "module": "web",
+    "moduleType": "web",
+    "name": "生活缴费",
+    "params": [],
+    "path": "./vx_mock/index.html#/staHome"
+  },
+  {
+    "auth_check": [],
+    "index": "financeDetail",
+    "module": "web",
+    "moduleType": "web",
+    "name": "理财明细",
+    "params": [],
+    "path": "./vx_mock/index.html#/financeDetail"
+  },
+  {
+    "auth_check": [],
+    "index": "finRiskTest",
+    "module": "web",
+    "moduleType": "web",
+    "name": "风险评估",
+    "params": [],
+    "path": "./vx_mock/index.html#/finRiskTest"
+  },
+  {
+    "auth_check": [],
+    "index": "calendar",
+    "module": "web",
+    "moduleType": "web",
+    "name": "金融日历",
+    "params": [],
+    "path": "./vx_mock/index.html#/calendar"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "timeDepositList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "定活互转",
+    "params": [],
+    "path": "./vx_mock/index.html#/timeDepositList"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "notDepList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "通知存款",
+    "params": [],
+    "path": "./vx_mock/index.html#/notDepList"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "larDepList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "大额存单",
+    "params": [],
+    "path": "./vx_mock/index.html#/larDepList"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "smartDepList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "智能存款",
+    "params": [],
+    "path": "./vx_mock/index.html#/smartDepList"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "exchangeMenu",
+    "module": "web",
+    "moduleType": "web",
+    "name": "结购汇",
+    "params": [],
+    "path": "./vx_mock/index.html#/exchangeMenu"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "exchangeQuery",
+    "module": "web",
+    "moduleType": "web",
+    "name": "外汇交易明细",
+    "params": [],
+    "path": "./vx_mock/index.html#/exchangeQuery"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "exchangeMarket",
+    "module": "web",
+    "moduleType": "web",
+    "name": "外汇行情",
+    "params": [],
+    "path": "./vx_mock/index.html#/exchangeMarket"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "myLoan",
+    "module": "web",
+    "moduleType": "web",
+    "name": "我的贷款",
+    "params": [],
+    "path": "./vx_mock/index.html#/myLoan"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "loanApplyPre",
+    "module": "web",
+    "moduleType": "web",
+    "name": "贷款申请",
+    "params": [],
+    "path": "./vx_mock/index.html#/loanApplyPre"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "loanInquiry",
+    "module": "web",
+    "moduleType": "web",
+    "name": "贷款申请进度",
+    "params": [],
+    "path": "./vx_mock/index.html#/loanInquiry"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "identityInfoAuth",
+    "module": "web",
+    "moduleType": "web",
+    "name": "信用卡申请",
+    "params": [],
+    "path": "./vx_mock/index.html#/identityInfoAuth"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "creditCardApplyInquiryPre",
+    "module": "web",
+    "moduleType": "web",
+    "name": "信用卡申请进度查询",
+    "params": [],
+    "path": "./vx_mock/index.html#/creditCardApplyInquiryPre"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "addCardPre",
+    "module": "web",
+    "moduleType": "web",
+    "name": "加挂账户",
+    "params": [],
+    "path": "./vx_mock/index.html#/addCardPre"
+  },
+  {
+    "auth_check": [
+      "sub != '' | login?text=请先登录"
+    ],
+    "index": "eleRecList",
+    "module": "web",
+    "moduleType": "web",
+    "name": "电子回单",
+    "params": [],
+    "path": "./vx_mock/index.html#/eleRecList"
+  },
+  {
+    "auth_check": [],
+    "index": "login",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "登录",
+    "params": [],
+    "path": "./weex/index.weex.js?Page=Login"
+  },
+  {
+    "auth_check": [],
+    "index": "payeelist",
+    "module": "web",
+    "moduleType": "web",
+    "name": "收款人名册",
+    "params": [
+      {
+        "key": "x-funcName",
+        "value": "转账"
+      },
+      {
+        "key": "x-funcType",
+        "value": "transfer"
+      }
+    ],
+    "path": "./vx/index.html#/payeeList"
+  },
+  {
+    "auth_check": [],
+    "index": "transferinquiry",
+    "module": "web",
+    "moduleType": "web",
+    "name": "次日转账查询",
+    "params": [
+      {
+        "key": "x-funcName",
+        "value": "转账"
+      },
+      {
+        "key": "x-funcType",
+        "value": "transfer"
+      }
+    ],
+    "path": "./vx/index.html#/transferInquiry"
+  },
+  {
+    "auth_check": [],
+    "index": "transTransaction",
+    "module": "web",
+    "moduleType": "web",
+    "name": "交易明细",
+    "params": [
+      {
+        "key": "x-funcName",
+        "value": "存款"
+      },
+      {
+        "key": "x-funcType",
+        "value": "deposit"
+      }
+    ],
+    "path": "./vx/index.html#/transTransaction"
+  },
+  {
+    "auth_check": [],
+    "index": "crosspaymentlist",
+    "module": "web",
+    "moduleType": "web",
+    "name": "跨行收款",
+    "params": [
+      {
+        "key": "x-funcType",
+        "value": "payment"
+      },
+      {
+        "key": "x-funcName",
+        "value": "缴费"
+      }
+    ],
+    "path": "./vx/index.html#/crossPaymentList"
+  },
+  {
+    "auth_check": [],
+    "index": "myacchome",
+    "module": "web",
+    "moduleType": "web",
+    "name": "我的账户",
+    "params": [
+      {
+        "key": "x-funcType",
+        "value": "deposit"
+      },
+      {
+        "key": "x-funcName",
+        "value": "存款"
+      }
+    ],
+    "path": "./vx/index.html#/myAccHome"
+  },
+  {
+    "auth_check": [],
+    "index": "mycredit",
+    "module": "web",
+    "moduleType": "web",
+    "name": "我的信用卡",
+    "params": [
+      {
+        "key": "x-funcName",
+        "value": "理财"
+      },
+      {
+        "key": "x-funcType",
+        "value": "financial_management"
+      }
+    ],
+    "path": "./vx/index.html#/myCreditCard"
+  },
+  {
+    "auth_check": [],
+    "index": "transfer",
+    "module": "web",
+    "moduleType": "web",
+    "name": "转账",
+    "params": [
+      {
+        "key": "x-funcType",
+        "value": "transfer"
+      },
+      {
+        "key": "x-funcName",
+        "value": "转账"
+      }
+    ],
+    "path": "./vx/index.html#/transferMain"
+  },
+  {
+    "auth_check": [],
+    "index": "user",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "我的",
+    "params": [
+      {
+        "key": "x-funcName",
+        "value": "用户"
+      },
+      {
+        "key": "x-funcType",
+        "value": "transfer"
+      }
+    ],
+    "path": "/weex/index.weex.js?Page=Tab_user"
+  },
+  {
+    "auth_check": [],
+    "index": "finance",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "贷款",
+    "params": [],
+    "path": "/weex/index.weex.js?Page=Tab_finance"
+  },
+  {
+    "auth_check": [],
+    "index": "lamp_item",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "公告详情",
+    "params": [
+      {
+        "key": "x-funcType",
+        "value": "other"
+      },
+      {
+        "key": "x-funcName",
+        "value": "其它"
+      }
+    ],
+    "path": "./weex/index.weex.js?Page=LampItem"
+  },
+  {
+    "auth_check": [],
+    "index": "menu_all",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "全部功能",
+    "params": [],
+    "path": "./weex/index.weex.js?Page=MenuAll"
+  },
+  {
+    "auth_check": [],
+    "index": "page_tab_home",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "主页",
+    "params": [
+      {
+        "key": "url",
+        "value": "../data/tab_home.json"
+      },
+      {
+        "key": "x-funcName",
+        "value": "主页"
+      },
+      {
+        "key": "x-funcType",
+        "value": "0"
+      }
+    ],
+    "path": "./weex/index.weex.js?Page=Tab_home"
+  },
+  {
+    "auth_check": null,
+    "index": "page_test",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "测试",
+    "params": [
+      {
+        "key": "url",
+        "value": "../data/test.json"
+      }
+    ]
+  },
+  {
+    "auth_check": [],
+    "index": "page_launcher_tg",
+    "module": "tangram",
+    "moduleType": "custom",
+    "name": "tg导航栏",
+    "params": [
+      {
+        "key": "url",
+        "value": "../data/launcher_tg.json"
+      }
+    ],
+    "path": ""
+  },
+  {
+    "auth_check": [],
+    "index": "page_launcher",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "导航栏",
+    "params": [
+      {
+        "key": "url",
+        "value": "../data/launcher.json"
+      },
+      {
+        "key": "x-funcName",
+        "value": "启动页"
+      },
+      {
+        "key": "x-funcType",
+        "value": "inquiry"
+      }
+    ],
+    "path": "./weex/index.weex.js?Page=Launcher"
+  },
+  {
+    "auth_check": null,
+    "index": "page_tab_finance",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "理财",
+    "params": [
+      {
+        "key": "url",
+        "value": "../data/tab_finance.json"
+      }
+    ]
+  },
+  {
+    "auth_check": [],
+    "index": "page_tab_life",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "页面",
+    "params": [
+      {
+        "key": "url",
+        "value": "../data/tab_life.json"
+      }
+    ],
+    "path": "./weex/index.weex.js?Page=Tab_life"
+  },
+  {
+    "auth_check": [],
+    "index": "page_tab_user",
+    "module": "weex",
+    "moduleType": "weex",
+    "name": "我的",
+    "params": [
+      {
+        "key": "url",
+        "value": "../data/tab_user.json"
+      }
+    ],
+    "path": "./weex/index.weex.js?Page=Tab_user"
+  }
+]

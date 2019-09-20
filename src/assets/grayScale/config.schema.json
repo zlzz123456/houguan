@@ -1,0 +1,61 @@
+{
+  "listShowProps": ["index", "name", "type", "version"],
+  "readonlyProps": ["index", "type"],
+
+  "editTitle": "编辑灰度规则",
+  "listTitle": "灰度规则列表",
+
+  "type": "object",
+  "title": "新建灰度规则",
+  "properties": {
+    "index": {
+      "title": "灰度规则ID",
+      "type": "string",
+      "description": "ID请使用全英文",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "name": {
+      "title": "灰度规则名称",
+      "type": "string",
+      "default": "模板",
+      "minLength": 1
+    },
+    "desc": {
+      "title": "灰度规则描述",
+      "type": "string"
+    },
+    "type": {
+      "title": "灰度规则类型",
+      "type": "string",
+      "enum": [
+        "grayScale/default.schema.json",
+        "grayScale/group.schema.json",
+        "grayScale/device.schema.json"
+      ],
+      "options": {
+        "enum_titles": [
+          "默认规则",
+          "集合规则",
+          "设备规则"
+        ]
+      }
+    },
+    "version": {
+      "title": "目标版本",
+      "type": "string",
+      "minLength": 1
+    },
+    "src": {
+      "type": "string",
+      "title": "文件路径",
+      "template": "grayScale/{{fileName}}.json",
+      "options": {
+        "hidden": "true"
+      },
+      "watch": {
+        "fileName": "index"
+      }
+    }
+  }
+}

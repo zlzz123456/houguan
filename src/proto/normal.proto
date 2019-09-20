@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package pb;
+
+import "common.proto";
+
+message NormalRequest {
+     Request request = 1;
+     string path = 2;
+     string data = 3;
+}
+message PageRequest {
+    Request request = 1;
+    string path = 2;
+    int64 page = 3;
+    int64 pageSize = 4;
+}
+
+message UpdateRequest {
+    Request request = 1;
+    string path = 2;
+    string type = 3;
+    string data = 4;
+}
+
+message NormalResponse {
+    Result result = 1;
+    string data = 2;
+}
+
+service NormalService {
+
+    rpc GetJSON(NormalRequest) returns (NormalResponse);
+    rpc UpdateJSON(NormalRequest) returns (CommonResponse);
+    rpc GetSchema(NormalRequest) returns(NormalResponse);
+    // 分页列表服务
+    rpc GetPageList(PageRequest) returns (NormalResponse);
+    rpc GetIndexList(NormalRequest) returns (NormalResponse);
+    rpc UpdateList(UpdateRequest) returns (NormalResponse);
+}

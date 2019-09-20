@@ -1,0 +1,86 @@
+[
+  {
+    "index": "1",
+    "type": "CatalogView1",
+    "label": "\uD83D\uDCE2 : madp2.0后管平台",
+    "action":"https://www.taobao.com",
+    "style": [
+      {
+        "key": "textSize",
+        "value": "15"
+      },
+      {
+        "key": "textColor",
+        "value": "#000000"
+      },
+      {
+        "key": "leftPadding",
+        "value": "10"
+      },
+      {
+        "key": "height",
+        "value": "30"
+      },
+      {
+        "key": "bgColor",
+        "value": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "index": "2",
+    "type": "CatalogView1",
+    "label": "\uD83D\uDCE2 : 公告测试。。。。",
+    "action":"https://www.tmall.com",
+    "style": [
+      {
+        "key": "textSize",
+        "value": "15"
+      },
+      {
+        "key": "textColor",
+        "value": "#000000"
+      },
+      {
+        "key": "leftPadding",
+        "value": "10"
+      },
+      {
+        "key": "height",
+        "value": "30"
+      },
+      {
+        "key": "bgColor",
+        "value": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "index": "3",
+    "type": "CatalogView1",
+    "label": "\uD83D\uDCE2 : 公告测试2222。。",
+    "action":"https://www.tmall.com",
+    "style": [
+      {
+        "key": "textSize",
+        "value": "15"
+      },
+      {
+        "key": "textColor",
+        "value": "#000000"
+      },
+      {
+        "key": "leftPadding",
+        "value": "10"
+      },
+      {
+        "key": "height",
+        "value": "30"
+      },
+      {
+        "key": "bgColor",
+        "value": "#FFFFFF"
+      }
+    ]
+  }
+]

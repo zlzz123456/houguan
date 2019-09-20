@@ -1,0 +1,10 @@
+{
+  "layoutType": "container-oneColumn",
+  "type": "Page",
+  "style": [
+    {
+      "key": "height",
+      "value": "30"
+    }
+  ]
+}

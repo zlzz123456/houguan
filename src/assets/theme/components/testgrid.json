@@ -1,0 +1,10 @@
+{
+  "layoutType": "container-oneColumn",
+  "type": "TestGrid",
+  "style": [
+    {
+      "key": "height",
+      "value": "175"
+    }
+  ]
+}

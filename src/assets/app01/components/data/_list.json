@@ -1,0 +1,122 @@
+[
+  {
+    "index": "adrow",
+    "name": "行级广告",
+    "src": "components/adrow.json",
+    "type": "components/adrow.schema.json"
+  },
+  {
+    "index": "adcol2",
+    "name": "二等分广告",
+    "src": "components/adcol2.json",
+    "type": "components/adcol2.schema.json"
+  },
+  {
+    "index": "adcol3",
+    "name": "三等分广告",
+    "src": "components/adcol3.json",
+    "type": "components/adcol3.schema.json"
+  },
+  {
+    "index": "userinfo",
+    "name": "用户信息",
+    "src": "components/userinfo.json",
+    "type": "components/userinfo.schema.json"
+  },
+  {
+    "index": "topbar",
+    "name": "主页标题栏",
+    "src": "components/topbar.json",
+    "type": "components/topbar.schema.json"
+  },
+  {
+    "index": "user_menu",
+    "name": "我的菜单",
+    "src": "components/user_menu.json",
+    "type": "components/menu.schema.json"
+  },
+  {
+    "index": "option",
+    "name": "我的选项",
+    "src": "components/option.json",
+    "type": "components/option.schema.json"
+  },
+  {
+    "index": "integral",
+    "name": "积分兑换网点",
+    "src": "components/integral.json",
+    "type": "components/integral.schema.json"
+  },
+  {
+    "index": "website",
+    "name": "网点模版",
+    "src": "components/website.json",
+    "type": "components/website.schema.json"
+  },
+  {
+    "index": "hotnews",
+    "name": "热门资讯",
+    "src": "components/hotnews.json",
+    "type": "components/hotnews.schema.json"
+  },
+  {
+    "index": "menu55",
+    "name": "生活菜单",
+    "src": "components/menu55.json",
+    "type": "components/menu.schema.json"
+  },
+  {
+    "index": "menu44",
+    "name": "理财菜单",
+    "src": "components/menu44.json",
+    "type": "components/menu.schema.json"
+  },
+  {
+    "index": "ad2",
+    "name": "生活广告",
+    "src": "components/ad2.json",
+    "type": "components/ad.schema.json"
+  },
+  {
+    "index": "ad1",
+    "name": "理财广告",
+    "src": "components/ad1.json",
+    "type": "components/ad.schema.json"
+  },
+  {
+    "index": "ad",
+    "name": "广告",
+    "src": "components/ad.json",
+    "type": "components/ad.schema.json"
+  },
+  {
+    "index": "notice",
+    "name": "公告",
+    "src": "components/notice.json",
+    "type": "components/notice.schema.json"
+  },
+  {
+    "index": "hotfinance",
+    "name": "理财",
+    "src": "components/hotfinance.json",
+    "type": "components/hotfinance.schema.json"
+  },
+  {
+    "index": "menu11",
+    "name": "首页菜单",
+    "src": "components/menu11.json",
+    "type": "components/menu.schema.json"
+  },
+  {
+    "index": "tab",
+    "name": "导航",
+    "src": "components/tab.json",
+    "type": "components/tab.schema.json"
+  },
+  {
+    "index": "tab_tg",
+    "name": "tg导航",
+    "src": "components/tab_tg.json",
+    "type": "components/tab.schema.json"
+  }
+]
